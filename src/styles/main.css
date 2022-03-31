@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+}
+
+.listheader {
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+.logo_img {
+    height: 7%;
+    /* margin-top: 55px; */
+}
+
+.logotype {
+    width: 400px;
+}
+
+.knop {
+    display: inline-block;
+    margin-left: 251px;
+}
+
+.nextbtn {
+    margin-top: 20px;
+    width: 234px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nextbutton {
+    font-family: "ManropeRegular";
+    font-size: 14px;
+    padding-left: 10px;
+    color: #F4F7E7;
+    text-decoration: none!important;
+}
+
+.nextsvg {
+    width: 24px;
+}
+
+.line {
+    border: #F4F7E7 solid 1px;
+    width: 810px;
+    margin-top: 20px;
+}
+
+.titles {
+    margin-top: 15%;
+}
+
+.title_main {
+    font-family: "ManropeRegular";
+    font-size: 54px;
+    color: #F4F7E7;
+}
+
+.title_help {
+    font-family: "ManropeRegular";
+    font-size: 14px;
+    color: #F4F7E7;
+    font-weight: 100;
+}
+
+a {
+    font-family: "ManropeRegular";
+    outline: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+.urls {
+    margin-top: 200px;
+}
+
+li {
+    margin-right: 100px;
+    display: inline;
+    width: 100px;
+    height: 60px;
+}
+
+.article {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ghost-button {
+    font-family: "ManropeRegular";
+    font-size: 14px;
+    border-radius: 15px;
+    margin-top: 69px;
+    margin-left: 75px;
+    display: inline-block;
+    width: 125px;
+    padding: 8px;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+}
+
+.element-search {
+    padding-top: 50%;
+    color: grey;
+    font-size: 14px;
+    font-family: "ManropeRegular";
+}
+
+.textfield-search {
+    text-align: justify;
+    width: 320px;
+    border: grey solid 1px;
+    border-radius: 8px;
+}
+
+.search-widget {
+    width: 320px;
+    text-align: justify;
+}
+
+.nextbutton,
+.nextbutton:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.article {
+    transition: 1s;
+    /* Время эффекта */
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.article:hover {
+    transform: scale(1.5);
+    text-decoration: none;
+    color: #fff;
+}
+
+.ghost-button:hover,
+.ghost-button:active {
+    text-decoration: none;
+    color: #fff;
+    background-color: #fff;
+    color: #000;
+}
+
+
+/* body {
+    height: 4000px;
+} */
+
+.safearea {
+    background-image: url("../assets/header.png");
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+}

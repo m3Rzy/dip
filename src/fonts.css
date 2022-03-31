@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "ManropeRegular";
+    src: url("fonts/regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ManropeBold";
+    src: url("fonts/bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ManropeLight";
+    src: url("fonts/light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "RubikRegular";
+    src: url("fonts/Rubik/Rubik-Regular.ttf") format("truetype");
+}
