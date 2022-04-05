@@ -90,7 +90,7 @@ function FamilyApp() {
                     
                     <div className="next-article">
                         <p className="next-h1">Дом П. С. Строганова на Сергиевской улице</p>
-                        <p className="next-h2">щвцлщфвцлщвлфлцщвлщцфлщвцфлщлфщвцлщцфлщ</p>
+                        <p className="next-h2">*какое-то описание*</p>
                         <a href="/house"><button type="button" className="block">Читать</button></a>
                     </div>
                 </div>

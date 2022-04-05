@@ -13,23 +13,23 @@ function SearchApp() {
     const [dataSource, setDataSource] = useState([
     {
     name: "Дом П. С. Строганова на Сергиевской улице",
-    about: "первая",
+    about: "*описание*",
     // url: <Button onClick={() => {  }} type='primary'>Перейти</Button>
     url:  <a href="/house"><button className='custombtn'><span className='customspan'>Читать</span></button></a>,
     },
     {
     name: "Строгановские места в Санкт-Петербурге и России",
-    about: "вторая",
+    about: "*описание*",
     url:  <a href="#"><button className='custombtn'><span className='customspan'>Читать</span></button></a>,
     },
     {
     name: "Павел Сергеевич Строганов - биография",
-    about: "третья",
+    about: "*описание*",
     url:  <a href="#"><button className='custombtn'><span className='customspan'>Читать</span></button></a>,
     },
     {
     name: "Род Строгановых",
-    about: "четвертая",
+    about: "*описание*",
     url:  <a href="/family"><button className='custombtn'><span className='customspan'>Читать</span></button></a>,
     }, 
     ]);
