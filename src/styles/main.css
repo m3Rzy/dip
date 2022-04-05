@@ -1,6 +1,3 @@
-body {
-    margin: 0;
-}
 
 .listheader {
     margin-left: 125px;
@@ -21,6 +18,7 @@ body {
     margin-left: 251px;
 }
 
+
 .nextbtn {
     margin-top: 20px;
     width: 234px;
@@ -29,6 +27,7 @@ body {
 ul {
     margin: 0;
     padding: 0;
+    
 }
 
 .nextbutton {
@@ -45,15 +44,13 @@ ul {
 
 .line {
     border: #F4F7E7 solid 1px;
-    width: 810px;
+    width: 910px;
     margin-top: 20px;
 }
 
-.titles {
-    margin-top: 15%;
-}
 
 .title_main {
+    
     font-family: "ManropeRegular";
     font-size: 54px;
     color: #F4F7E7;
@@ -74,7 +71,8 @@ a {
 }
 
 .urls {
-    margin-top: 200px;
+    margin-top: 100px;
+    display: flex;
 }
 
 li {
@@ -85,7 +83,7 @@ li {
 }
 
 .article {
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 500;
 }
 
@@ -162,5 +160,6 @@ li {
     background-size: cover;
     width: 100%;
     height: 1000px;
+    min-height: 100vh;
     background-repeat: no-repeat;
 }

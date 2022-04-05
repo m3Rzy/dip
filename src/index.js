@@ -6,6 +6,7 @@ import {} from 'antd';
 import MainApp from './pages/main.js';
 import FamilyApp from './pages/family.js';
 import HouseApp from './pages/house.js';
+import { BrowserRouter } from 'react-router-dom';
 
 
 import reportWebVitals from './reportWebVitals';
@@ -14,11 +15,10 @@ import App from './App';
 
 ReactDOM.render(
     <React.StrictMode>
-      
-      <SearchApp />
-      {/* <MainApp /> */}
-      {/* <FamilyApp />
-      <HouseApp /> */}
+        <BrowserRouter>
+          {/* <MainApp /> */}
+          <App />
+        </BrowserRouter>
        </React.StrictMode>,
     document.getElementById('root')
 );

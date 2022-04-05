@@ -3,20 +3,23 @@ import picture from '../assets/next.svg';
 import '../styles/house.css';
 import '../fonts.css';
 
+
+
 function HouseApp() {
     return (
         <div className = "HouseApp">
-            <div className="container-fluid">
+            
+            <div className="container-fluid-house">
         <div className="listheader2">
             <a href="#">
                 <div className="logo">
-                    <img src={logo} alt="" width="250px" className="logo_img" />
+                    <img src={logo} alt="" width="250px" className="logo_img-house" />
                 </div>
             </a>
 
             <div className="nextbtn">
                 <img src={picture} alt="#" className="nextsvg" />
-                <a href="#" className="nextbutton">Назад</a>
+                <a href="/" className="nextbutton">Назад</a>
             </div>
             <div className="titles">
                 <h1 className="title_main">Дом П. С. Строганова на Сергиевской улице</h1>
@@ -27,7 +30,7 @@ function HouseApp() {
         </div>
     </div>
     <div className="container-fluid2">
-        <div className="listheader">
+        <div className="listheader-house">
             <div className="subject5">
                 <h className="title-veka">
                     Общая история
@@ -46,13 +49,13 @@ function HouseApp() {
 
                 </p>
             </div>
-            <div className="subject2">
+            {/* <div className="subject2">
                 <p>Следующий владелец - протопоп Петропавловского собора Василий Алексеев, затем советник И.И. Татищев, позже - генерал-майор С.М. Давыдов. По просроченной закладной дом перешел к князьям Несвитским (Несвицким), Ивану и Петру, сыновьям петербургского
                     губернатора, вице-адмирала В. Ф. Несвитского. Дом принадлежал Несвитским, служившим в лейб-гвардии Конном полку, в 1792-1794 гг. В начале XIX в. участок принадлежал представителям семейства Строгановых. Сначала Елизавете Александровне,
                     вдове Александра Николаевича Строганова, затем их сыну, дипломату Григорию Александровичу. Г.А. Строганов был двоюродным дядей Н. Н. Гончаровой (Пушкиной). В 1857 г. владельцами стали П.С. Строганов, внук Г. А., и его жена Анна Дмитриевна,
                     дочь известного военного историка Д.П. Бутурлина.
                 </p>
-            </div>
+            </div> */}
             <div className="subject7">
                 <p>
                     В 1857 г. по проекту арх. И.А. Монигетти началось возведение двухэтажного особняка. В 1877 г. по проекту арх. М.Е. Месмахера по Сергиевской (Чайковского) ул. сделали пристройку в три окна для домовой церкви. Главный вход находился на Сергиевской ул. Парадные
@@ -71,7 +74,6 @@ function HouseApp() {
                     размещалась столовая. Она была «сердцем» дома. Сюда ведут четыре двери, связывающие ее с гостиными, внутренними комнатами и лестницей. Этот зал оформлен в стиле фламандского барокко. Здесь сохранился камин, на котором стоят две фигуры,
                     выполненные из дуба. Это опять лисицы. Когда-то они держали герб Строгановых, но теперь лапы у зверьков обрублены.
 
-
                 </p>
             </div>
         </div>
@@ -80,4 +82,4 @@ function HouseApp() {
     );
 }
 
-export default HouseApp;
+export {HouseApp};

@@ -6,11 +6,11 @@
     background-repeat: no-repeat;
 }
 
-.listheader {
+.listheader-family {
     /* margin-left: 125px;
     margin-right: 125px; */
-    margin-left: 325px;
-    margin-right: 325px;
+    margin-left: 350px;
+    margin-right: 350px;
 }
 
 .listheader2 {
@@ -18,7 +18,7 @@
     margin-right: 125px;
 }
 
-.logo_img {
+.logo_img-family {
     margin-top: 55px;
 }
 

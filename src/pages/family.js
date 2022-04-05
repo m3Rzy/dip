@@ -1,7 +1,8 @@
+import '../styles/family.css';
 import logo2 from '../assets/logo-whiye.png';
 import picture2 from '../assets/next.svg';
 import yop2 from '../assets/виднастрогановдачу.png';
-import '../styles/family.css';
+import sitmo from '../assets/logo-full.png';
 import '../fonts.css';
 
 
@@ -12,13 +13,13 @@ function FamilyApp() {
                 <div className="listheader2">
                     <a href="">
                         <div className="logo">
-                            <img src={logo2} alt="" width="250px" className="logo_img" />
+                            <img src={logo2} alt="" width="250px" className="logo_img-family" />
                         </div>
                     </a>
 
                     <div className="nextbtn">
                         <img src={picture2} alt="#" className="nextsvg" />
-                        <a href="#" className="nextbutton">Назад</a>
+                        <a href="/" className="nextbutton">Назад</a>
                     </div>
                     <div className="titles">
                         <h1 className="title_main">Род Строганова</h1>
@@ -28,7 +29,7 @@ function FamilyApp() {
                 </div>
             </div>
             <div className="container-fluid2">
-                <div className="listheader">
+                <div className="listheader-family">
                     <div className="subject5">
                         <h className="title-veka">
                             V веков истории рода Строгановых
@@ -90,13 +91,13 @@ function FamilyApp() {
                     <div className="next-article">
                         <p className="next-h1">Дом П. С. Строганова на Сергиевской улице</p>
                         <p className="next-h2">щвцлщфвцлщвлфлцщвлщцфлщвцфлщлфщвцлщцфлщ</p>
-                        <button type="button" className="block">Читать</button>
+                        <a href="/house"><button type="button" className="block">Читать</button></a>
                     </div>
                 </div>
             </div>
             <div className="container-fluid3">
                 <div className="footer-pooper">
-                    <img src="../../assets/img/logo-full.png" width="200px" alt="" className="logo_img_footer" />
+                    <img src={sitmo} width="200px" alt="" className="logo_img_footer" />
                     <p className="excep">Нашли ошибку в тексте? Выделите ее и нажмите Ctrl + Enter</p>
                     <div className="line-footer"></div>
                     <p className="rules">© 2021 ITMO Unversity</p>
@@ -106,4 +107,4 @@ function FamilyApp() {
     );
 }
 
-export default FamilyApp;
+export {FamilyApp};

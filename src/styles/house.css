@@ -1,4 +1,4 @@
-.container-fluid {
+.container-fluid-house {
     background-image: url("../assets/castle.png");
     background-size: cover;
     width: 100%;
@@ -6,9 +6,9 @@
     background-repeat: no-repeat;
 }
 
-body {
+/* body {
     height: 2300px;
-}
+} */
 
 .subject5 {
     padding-right: 30px;
@@ -34,26 +34,26 @@ p {
     font-family: "ManropeRegular";
 }
 
-.listheader {
+.listheader-house {
     /* margin-left: 125px;
     margin-right: 125px; */
-    margin-left: 325px;
-    margin-right: 325px;
+    margin-left: 350px;
+    margin-right: 350px;
 }
 
-.subject2 {
+/* .subject2 {
     text-indent: 70px;
     margin-top: 30px;
     width: 100%;
     text-align: justify;
-}
+} */
 
 .listheader2 {
     margin-left: 125px;
     margin-right: 125px;
 }
 
-.logo_img {
+.logo_img-house {
     margin-top: 55px;
 }
 
@@ -92,7 +92,7 @@ a {
 }
 
 .titles {
-    margin-top: 25%;
+    margin-top: 15%;
 }
 
 .nextbutton,

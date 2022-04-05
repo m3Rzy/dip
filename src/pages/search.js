@@ -3,6 +3,9 @@ import { useState } from 'react';
 import 'antd/dist/antd.css';
 import '../styles/search.css';
 import {SearchOutlined} from '@ant-design/icons';
+import { HouseApp } from './house';
+import { FamilyApp } from './family';
+import { MainApp } from './main';
 
 
 
@@ -11,22 +14,23 @@ function SearchApp() {
     {
     name: "Дом П. С. Строганова на Сергиевской улице",
     about: "первая",
-    url: <Button onClick={() => {  }} type='primary'>Перейти</Button>
+    // url: <Button onClick={() => {  }} type='primary'>Перейти</Button>
+    url:  <a href="/house"><button className='custombtn'><span className='customspan'>Читать</span></button></a>,
     },
     {
     name: "Строгановские места в Санкт-Петербурге и России",
     about: "вторая",
-    url: <Button onClick={() => {  }} type='primary'>Перейти</Button>
+    url:  <a href="#"><button className='custombtn'><span className='customspan'>Читать</span></button></a>,
     },
     {
     name: "Павел Сергеевич Строганов - биография",
     about: "третья",
-    url: <Button onClick={() => {  }} type='primary'>Перейти</Button>
+    url:  <a href="#"><button className='custombtn'><span className='customspan'>Читать</span></button></a>,
     },
     {
     name: "Род Строгановых",
     about: "четвертая",
-    url: <Button onClick={() => {  }} type='primary'>Перейти</Button>
+    url:  <a href="/family"><button className='custombtn'><span className='customspan'>Читать</span></button></a>,
     }, 
     ]);
     
@@ -81,4 +85,4 @@ function SearchApp() {
     );
 }
 
-export default SearchApp;
+export {SearchApp};
