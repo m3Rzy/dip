@@ -1,16 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import 'antd/dist/antd.css';
+import {} from 'antd';
 import MainApp from './pages/main.js';
 import FamilyApp from './pages/family.js';
 import HouseApp from './pages/house.js';
 
 
 import reportWebVitals from './reportWebVitals';
+import SearchApp from './pages/search';
+import App from './App';
 
 ReactDOM.render(
     <React.StrictMode>
-      <MainApp />
+      
+      <SearchApp />
+      {/* <MainApp /> */}
       {/* <FamilyApp />
       <HouseApp /> */}
        </React.StrictMode>,

@@ -2,6 +2,7 @@ import logo from '../assets/logo-whiye.png';
 import picture from '../assets/next.svg';
 import '../styles/main.css';
 import '../fonts.css';
+import HouseApp from './house';
 
 
 function MainApp() {
@@ -28,10 +29,10 @@ function MainApp() {
             </div>
             <div className="urls">
                 <ul className="articles">
-                    <li><a href="pages/house/house.html" className="article">Дом П. С. Строганова на Сергиевской улице</a></li>
+                    <li><a href="#" className="article">Дом П. С. Строганова на Сергиевской улице</a></li>
                     <li><a href="#" className="article">Строгановские места в Санкт-Петербурге и России</a></li>
                     <li><a href="#" className="article">Павел Сергеевич Строганов</a></li>
-                    <li><a href="pages/family/family.html" className="article">Род Строгановых</a></li>
+                    <li><a href="#" className="article">Род Строгановых</a></li>
                 </ul>
             </div>
         </div>
