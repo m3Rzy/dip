@@ -20,12 +20,12 @@ function SearchApp() {
     {
     name: "Строгановские места в Санкт-Петербурге и России",
     about: "*описание*",
-    url:  <a href="#"><button className='custombtn'><span className='customspan'>Читать</span></button></a>,
+    url:  <a href="/"><button className='custombtn'><span className='customspan'>Читать</span></button></a>,
     },
     {
     name: "Павел Сергеевич Строганов - биография",
     about: "*описание*",
-    url:  <a href="#"><button className='custombtn'><span className='customspan'>Читать</span></button></a>,
+    url:  <a href="/"><button className='custombtn'><span className='customspan'>Читать</span></button></a>,
     },
     {
     name: "Род Строгановых",
