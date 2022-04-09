@@ -7,11 +7,12 @@ import '../fonts.css';
 
 
 function FamilyApp() {
+    document.title = 'Род Строгановых';
     return (
         <div className="FamilyApp">
             <div className="container-fluid">
                 <div className="listheader2">
-                    <a href="">
+                    <a href="/">
                         <div className="logo">
                             <img src={logo2} alt="" width="250px" className="logo_img-family" />
                         </div>
@@ -90,7 +91,7 @@ function FamilyApp() {
                     
                     <div className="next-article">
                         <p className="next-h1">Дом П. С. Строганова на Сергиевской улице</p>
-                        <p className="next-h2">*какое-то описание*</p>
+                        <p className="next-h2">Дворец Строгановых, построенный по проекту архитектора Франческо Бартоломео Растрелли в 1753—1754 годах, один из образцов уникального растреллиевского «барочно-рокайльного стиля».</p>
                         <a href="/house"><button type="button" className="block">Читать</button></a>
                     </div>
                 </div>

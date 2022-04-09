@@ -2,12 +2,17 @@ import { Input, Table, Button } from 'antd';
 import { useState } from 'react';
 import 'antd/dist/antd.css';
 import '../styles/search.css';
+import picture from '../assets/next.svg';
 import {SearchOutlined} from '@ant-design/icons';
+import { useHistory } from "react";
 
 
 
 
 function SearchApp() {
+    
+
+    document.title = 'Павел Сергеевич Строганов — Поиск';
     const [dataSource, setDataSource] = useState([
     {
     name: "Дом П. С. Строганова на Сергиевской улице",
@@ -52,7 +57,7 @@ function SearchApp() {
                 onBlur={() => {
                     confirm()
                 }}></Input>;
-                <Button onClick={() => { confirm(); }} type='primary'>Поиск</Button>
+                <Button onClick={() => { confirm(); }} type='primary' >Поиск</Button>
                 <Button onClick={() => { clearFilters(); }} type='danger'>Сбросить</Button>
                 </>
                 );
@@ -76,11 +81,19 @@ function SearchApp() {
 
     return (
         <div className="SearchApp">
+            
             <header className="SearchApp-header">
                 <Table style={{display:'flex', flex:1, margin:100}} columns={columns} dataSource={dataSource}> </Table>
+
+                
+                <div className="nextbtn">
+                <img src={picture} alt="#" className="nextsvg" />
+                <a href="/" className="nextbutton">На главную</a>
+            </div>
             </header>
         </div>
     );
 }
+
 
 export {SearchApp};

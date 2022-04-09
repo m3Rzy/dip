@@ -2,16 +2,18 @@ import logo from '../assets/logo-whiye.png';
 import picture from '../assets/next.svg';
 import '../styles/house.css';
 import '../fonts.css';
+import sitmo from '../assets/logo-full.png';
 
 
 
 function HouseApp() {
+    document.title = 'Дом П. С. Строганова';
     return (
         <div className = "HouseApp">
             
             <div className="container-fluid-house">
         <div className="listheader2">
-            <a href="#">
+            <a href="/">
                 <div className="logo">
                     <img src={logo} alt="" width="250px" className="logo_img-house" />
                 </div>
@@ -23,7 +25,7 @@ function HouseApp() {
             </div>
             <div className="titles">
                 <h1 className="title_main">Дом П. С. Строганова на Сергиевской улице</h1>
-                <h3 className="title_help">*описание*</h3>
+                <h3 className="title_help">Дворец Строгановых, построенный по проекту архитектора Франческо Бартоломео Растрелли в 1753—1754 годах, один из образцов уникального растреллиевского «барочно-рокайльного стиля».</h3>
                 <div className="line"></div>
 
             </div>
@@ -76,8 +78,22 @@ function HouseApp() {
 
                 </p>
             </div>
+            <div className="next-article">
+                        <p className="next-h1">Род Строгановых</p>
+                        <p className="next-h2">Род русских промышленников и помещиков, из которого происходили крупные землевладельцы и государственные деятели XVI—XX веков.</p>
+                        <a href="/family"><button type="button" className="block">Читать</button></a>
+                    </div>
         </div>
     </div>
+    
+    <div className="container-fluid3">
+                <div className="footer-pooper">
+                    <img src={sitmo} width="200px" alt="" className="logo_img_footer" />
+                    <p className="excep">Нашли ошибку в тексте? Выделите ее и нажмите Ctrl + Enter</p>
+                    <div className="line-footer"></div>
+                    <p className="rules">© 2021 ITMO Unversity</p>
+                </div>
+            </div>
         </div>
     );
 }

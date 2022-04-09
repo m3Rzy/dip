@@ -14,6 +14,7 @@ import gmail from '../assets/posts/icons8-gmail-48.png';
 
 
 function NewMain() {
+	document.title = 'Павел Сергеевич Строганов — Главная';
     return (
         <>
         <div id="wrapper">

@@ -437,9 +437,9 @@ header p {
 	text-transform: uppercase;
 }
 
-body {
+/* body {
 	padding-top: 3.5em;
-}
+} */
 
 #header {
 	display: -moz-flex;

@@ -13,6 +13,8 @@ import { NewMain } from './pages/newmain';
 
 
 function App() {
+    
+    
     return (
             <Routes>
                 <Route path="/family" element={<FamilyApp />} />
