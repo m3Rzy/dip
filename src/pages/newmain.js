@@ -190,6 +190,8 @@ function NewMain() {
 			<section id="footer">
 				<ul className="icons">
 					<li><a href="https://vk.com/itmoru" className="fa-instagram"><img src={vk} width="40px"/></a></li>
+					<li></li>
+					<li></li>
 					<li><a href="abit@itmo.ru" className="fa-envelope"><img src={gmail} width="40px"/></a></li>
 				</ul>
 				<p className="copyright">&copy; <a href="#">Университет ИТМО</a>.</p>

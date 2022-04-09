@@ -493,6 +493,7 @@ header p {
 	line-height: 1;
 	margin-left: 1em;
 	padding-left: 1em;
+	margin-right: 30px;
 }
 
 #header .links ul li a {
@@ -594,8 +595,7 @@ header p {
 	text-transform: uppercase;
 }
 
-/* ssssssssssssss 8?
-*/ 
+/* контакты */
 
 .modal {
 
