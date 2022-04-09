@@ -17,19 +17,42 @@ function NewMain() {
 	document.title = 'Павел Сергеевич Строганов — Главная';
     return (
         <>
+		
         <div id="wrapper">
+			
 		<header id="header">
 			{/* <h1><a href="#">История о П. С. Строганове</a></h1> */}
 			<h1><a href="#"><img src={logoblack} width="250px"/></a></h1>
 			<nav className="links">
 				<ul>
 					<li><a href="/search">СТАТЬИ</a></li>
-					<li><a href="#">КОНТАКТЫ</a></li>
+					<li><a href="#openModal">КОНТАКТЫ</a></li>
 					{/* <li><a href="/search">ПОИСК</a></li> */}
 				</ul>
 			</nav>
 		</header>
-
+		<div id="openModal" className="modal">
+  <div className="modal-dialog">
+    <div className="modal-content">
+      <div className="modal-header">
+        <h3 className="modal-title">Контакты</h3>
+        <a href="#close" title="Close" className="close">×</a>
+      </div>
+      <div className="modal-body">    
+	  <ul className="icons">
+					<li><a href="https://vk.com/itmoru" className="fa-instagram"><img src={vk} width="40px"/></a></li>
+					<li></li>
+					<li></li>
+					<li><a href="abit@itmo.ru" className="fa-envelope"><img src={gmail} width="40px"/></a></li>
+					<li></li>
+					<li></li>
+					<li><a href="">+7 (812) 480-04-80</a></li>
+					
+				</ul>
+      </div>
+    </div>
+  </div>
+</div>
 		<div id="main">
 			<article className="post">
 				<header>
@@ -94,12 +117,15 @@ function NewMain() {
 					<ul className="actions">
 						<li><a href="/house" className="button big">Читать подробнее</a></li>
 					</ul>
+					
 				</footer>
+				
 			</article>
 			{/* <ul className="actions pagination">
 				<li><a href="" className="disabled button big previous">Предыдущая страница</a></li>
 				<li><a href="#" className="button big next">Следующая страница</a></li>
 			</ul> */}
+			
 		</div>
 
 		<section id="sidebar">
@@ -154,10 +180,10 @@ function NewMain() {
 			</section>
 
 			<section className="blurb">
-				<h2>О приложении</h2>
-				<p>Приложение представляет собой набор исторических и информационных фактов для ознакомления.</p>
+				<h2>О сайте</h2>
+				<p>Сайт представляет собой набор исторических и информационных фактов для ознакомления.</p>
 				<ul className="actions">
-					<li><a href="#" className="button">Подробнее</a></li>
+					<li><a href="https://itmo.ru/ru/" className="button">Подробнее</a></li>
 				</ul>
 			</section>
 
@@ -169,6 +195,7 @@ function NewMain() {
 				<p className="copyright">&copy; <a href="#">Университет ИТМО</a>.</p>
 			</section>
 		</section>
+		
 	</div>
         </>
     );

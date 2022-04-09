@@ -9,6 +9,7 @@ import { SearchApp } from './pages/search';
 import { HouseApp } from './pages/house';
 import { FamilyApp } from './pages/family';
 import { NewMain } from './pages/newmain';
+import { Contacts } from './pages/contacts';
 
 
 
@@ -21,6 +22,7 @@ function App() {
                 <Route path="/house" element={<HouseApp />}/>
                 <Route path="/" element={<NewMain />}/>
                 <Route path="/search" element={<SearchApp />}/>
+                <Route path="/contacts" element={<Contacts />}/>
             </Routes>
     );
 }
