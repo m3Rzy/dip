@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import 'antd/dist/antd.css';
 import {} from 'antd';
-import MainApp from './pages/main.js';
-import FamilyApp from './pages/family.js';
-import HouseApp from './pages/house.js';
+// import MainApp from './pages/main.js';
+// import FamilyApp from './pages/family.js';
+// import HouseApp from './pages/house.js';
 import { BrowserRouter } from 'react-router-dom';
 
 

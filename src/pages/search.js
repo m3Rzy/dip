@@ -3,9 +3,7 @@ import { useState } from 'react';
 import 'antd/dist/antd.css';
 import '../styles/search.css';
 import {SearchOutlined} from '@ant-design/icons';
-import { HouseApp } from './house';
-import { FamilyApp } from './family';
-import { MainApp } from './main';
+
 
 
 

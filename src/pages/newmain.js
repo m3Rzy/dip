@@ -1,14 +1,16 @@
 import '../styles/newmain.css';
-import '../fonts.css';
-import pic01 from '../assets/pic01.jpg';
-import avatar from '../assets/avatar.jpg';
-import pic02 from '../assets/pic02.jpg';
-import pic03 from '../assets/pic03.jpg';
-import logonew from '../assets/logo.jpg';
-import pic04 from '../assets/pic04.jpg';
-import pic05 from '../assets/pic05.jpg';
-import pic06 from '../assets/pic06.jpg';
-import pic07 from '../assets/pic07.jpg';
+import avatar from '../assets/logo.jpg';
+import logoblack from '../assets/logo-black.png';
+import p1 from '../assets/posts/1.png';
+import p2 from '../assets/posts/2.png';
+import p22 from '../assets/posts/2-2.png';
+import p3 from '../assets/posts/3.png';
+import p33 from '../assets/posts/3-3.png';
+import p44 from '../assets/posts/4-4.png';
+import p55 from '../assets/posts/5-5.png';
+import p5 from '../assets/posts/5.png';
+import vk from '../assets/posts/icons8-vk-в-круге-48.png';
+import gmail from '../assets/posts/icons8-gmail-48.png';
 
 
 function NewMain() {
@@ -16,7 +18,8 @@ function NewMain() {
         <>
         <div id="wrapper">
 		<header id="header">
-			<h1><a href="#">Энциклопедия П.С.Строганова</a></h1>
+			{/* <h1><a href="#">История о П. С. Строганове</a></h1> */}
+			<h1><a href="#"><img src={logoblack} width="250px"/></a></h1>
 			<nav className="links">
 				<ul>
 					<li><a href="/search">СТАТЬИ</a></li>
@@ -30,16 +33,16 @@ function NewMain() {
 			<article className="post">
 				<header>
 					<div className="title">
-						<h2><a href="#">Род Строгановых</a></h2>
+						<h4><a href="#">Род Строгановых</a></h4>
 						<p>V веков истории рода Строгановых</p>
 					</div>
 					<div className="meta">
-						<time className="published" datetime="2015-11-01">"Источник"</time>
+						<h5>"Автор №1"</h5>
 						<a href="#" className="author"><span className="name">Университет ИТМО</span><img
 								src={avatar} alt="" /></a>
 					</div>
 				</header>
-				<a href="#" className="image featured"><img src={pic01} alt="" /></a>
+				<a href="#" className="image featured"><img src={p5} alt="" /></a>
 				<p>Род русских промышленников и помещиков, из которого происходили крупные землевладельцы и
 					государственные деятели XVI—XX веков.</p>
 				<footer>
@@ -52,18 +55,17 @@ function NewMain() {
 			<article className="post">
 				<header>
 					<div className="title">
-						<h2><a href="#">Дом П. С. Строганова на Сергиевской улице</a></h2>
+						<h4><a href="#">Современная жизнь дома</a></h4>
 						<p>Общая информация</p>
 					</div>
 					<div className="meta">
-						<time className="published" datetime="2015-10-25">"Источник"</time>
+					<h5>"Автор №2"</h5>
 						<a href="#" className="author"><span className="name">Университет ИТМО</span><img
 								src={avatar} alt="" /></a>
 					</div>
 				</header>
-				<a href="#" className="image featured"><img src={pic02} alt="" /></a>
-				<p>По переписи населения 1737 г. участок принадлежал капитану-поручику преображенского полка Федору
-					Фирсову. У вдовы Фирсова его купил придворный двора цесаревны Елизаветы Петровны Андрей Каштарев.
+				<a href="#" className="image featured"><img src={p2} alt="" /></a>
+				<p>НВ 1952 г. образован радиотехнический техникум, в состав которого вошел Ленинградский электромеханический техникум трамвайно-троллейбусного управления. В 1957 г. он переименован в Ленинградский радиотехнический техникум № 1, в 1966 г. техникум морского приборостроения. Подведомственность: до марта 1953, 1955 - 1957 гг. Министерства судостроительной промышленности СССР, март 1953 - 1955 гг. Министерства транспортного и тяжелого машиностроения СССР, июнь 1957- декабрь 1965 гг. Управления кадров и учебных заведений Ленсовнархоза, с 28 декабря 1965 г. Министерства судостроительной промышленности СССР.
 				</p>
 				<footer>
 					<ul className="actions">
@@ -75,16 +77,16 @@ function NewMain() {
 			<article className="post">
 				<header>
 					<div className="title">
-						<h2><a href="#">Павел Сергеевич Строганов и его дом</a></h2>
+						<h4><a href="#">Павел Сергеевич Строганов и его дом</a></h4>
 						<p>Подробная биография</p>
 					</div>
 					<div className="meta">
-						<time className="published" datetime="2015-10-22">"Источник"</time>
+					<h5>"Автор №3"</h5>
 						<a href="#" className="author"><span className="name">Университет ИТМО</span><img
 								src={avatar} alt="" /></a>
 					</div>
 				</header>
-				<a href="#" className="image featured"><img src={pic03} alt="" /></a>
+				<a href="#" className="image featured"><img src={p1} alt="" /></a>
 				<p>Обер-шенк русского императорского двора, коллекционер, меценат; представитель славного рода
 					Строгановых</p>
 				<footer>
@@ -101,9 +103,9 @@ function NewMain() {
 
 		<section id="sidebar">
 			<section id="intro">
-				<a href="#" className="logo"><img src={logonew} alt="" /></a>
+				{/* <a href="#" className="logo"><img src={logo} alt="" width="400px"/></a> */}
 				<header>
-					<h2>Университет ИТМО</h2>
+					<h2>Павел Сергеевич Строганов</h2>
 					<p>Исторические факты о П.С. Строганове</p>
 				</header>
 			</section>
@@ -114,37 +116,37 @@ function NewMain() {
 					<article className="mini-post">
 						<header>
 							<h3><a href="#">Род Строгановых</a></h3>
-							<time className="published" datetime="2015-10-20">*описание*</time>
+							<time className="published" datetime="2015-10-20">Экспонаты коллекции Павла Сергеевича Строганова</time>
 							<a href="#" className="author"><img src={avatar} alt="" /></a>
 						</header>
-						<a href="#" className="image"><img src={pic04} alt="" /></a>
+						<a href="#" className="image"><img src={p44} alt="" /></a>
 					</article>
 
 					<article className="mini-post">
 						<header>
-							<h3><a href="#">Дом П.С.Строганова</a></h3>
-							<time className="published" datetime="2015-10-19">*описание*</time>
+							<h3><a href="#">Интерьеры, коллекции Строгановых</a></h3>
+							<time className="published" datetime="2015-10-19">"Зеленая гостиная", "желтая гостиная" и множество других интересных помещений...</time>
 							<a href="#" className="author"><img src={avatar} alt="" /></a>
 						</header>
-						<a href="#" className="image"><img src={pic05} alt="" /></a>
+						<a href="#" className="image"><img src={p22} alt="" /></a>
 					</article>
 
 					<article className="mini-post">
 						<header>
-							<h3><a href="#">Павел Сергеевич Строганов - биография</a></h3>
-							<time className="published" datetime="2015-10-18">*описание*</time>
+							<h3><a href="#">Первая мировая война</a></h3>
+							<time className="published" datetime="2015-10-18">Фотографии из музея обороны "Борнхольма"</time>
 							<a href="#" className="author"><img src={avatar} alt="" /></a>
 						</header>
-						<a href="#" className="image"><img src={pic06} alt="" /></a>
+						<a href="#" className="image"><img src={p33} alt="" /></a>
 					</article>
 
 					<article className="mini-post">
 						<header>
 							<h3><a href="#">Строгановские места в Санкт-Петербурге и России</a></h3>
-							<time className="published" datetime="2015-10-17">*описание*</time>
+							<time className="published" datetime="2015-10-17">Объект историко-культурнуго наследия</time>
 							<a href="#" className="author"><img src={avatar} alt="" /></a>
 						</header>
-						<a href="#" className="image"><img src={pic07} alt="" /></a>
+						<a href="#" className="image"><img src={p55} alt="" /></a>
 					</article>
 
 				</div>
@@ -160,8 +162,8 @@ function NewMain() {
 
 			<section id="footer">
 				<ul className="icons">
-					<li><a href="#" className="fa-instagram"><span className="label">VK</span></a></li>
-					<li><a href="#" className="fa-envelope"><span className="label">Email</span></a></li>
+					<li><a href="https://vk.com/itmoru" className="fa-instagram"><img src={vk} width="40px"/></a></li>
+					<li><a href="abit@itmo.ru" className="fa-envelope"><img src={gmail} width="40px"/></a></li>
 				</ul>
 				<p className="copyright">&copy; <a href="#">Университет ИТМО</a>.</p>
 			</section>

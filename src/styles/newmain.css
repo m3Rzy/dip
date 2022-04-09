@@ -41,11 +41,8 @@ select {
 
 
 a {
-	-moz-transition: color 0.2s ease, border-bottom-color 0.2s ease;
-	-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
-	-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
-	transition: color 0.2s ease, border-bottom-color 0.2s ease;
-	border-bottom: dotted 1px rgba(160, 160, 160, 0.65);
+	text-decoration: none;
+	font-size: 14px;
 	color: inherit;
 	text-decoration: none;
 }
@@ -86,7 +83,7 @@ h6 {
 	text-transform: uppercase;
 }
 
-h1 a,
+/* h1 a,
 h2 a,
 h3 a,
 h4 a,
@@ -94,7 +91,7 @@ h5 a,
 h6 a {
 	color: inherit;
 	border-bottom: 0;
-}
+} */
 
 h2 {
 	font-size: 1.1em;
@@ -105,7 +102,7 @@ h3 {
 }
 
 h4 {
-	font-size: 0.7em;
+	font-size: 1em;
 }
 
 h5 {
@@ -116,7 +113,9 @@ h6 {
 	font-size: 0.7em;
 }
 
+
 .author {
+	/* margin-top: 20px; */
 	display: -moz-flex;
 	display: -webkit-flex;
 	display: -ms-flex;
@@ -135,9 +134,9 @@ h6 {
 	justify-content: flex-end;
 	border-bottom: 0;
 	font-family: "Raleway", Helvetica, sans-serif;
-	font-size: 0.6em;
+	/* font-size: 0.6em;
 	font-weight: 400;
-	letter-spacing: 0.25em;
+	letter-spacing: 0.25em; */
 	text-transform: uppercase;
 	white-space: nowrap;
 }
@@ -147,15 +146,16 @@ h6 {
 	-webkit-transition: border-bottom-color 0.2s ease;
 	-ms-transition: border-bottom-color 0.2s ease;
 	transition: border-bottom-color 0.2s ease;
-	border-bottom: dotted 1px rgba(160, 160, 160, 0.65);
+	
 	display: block;
 	margin: 0 1.5em 0 0;
+	
 }
 
 .author img {
 	border-radius: 100%;
 	display: block;
-	width: 4em;
+	width: 3em;
 }
 
 .author:hover .name {
@@ -317,10 +317,6 @@ ul.posts li {
 	border-radius: 25px;
 }
 
-.mini-post .image {
-	overflow: hidden;
-	width: 100%;
-}
 
 .mini-post .image img {
 	-moz-transition: -moz-transform 0.2s ease-out;
@@ -392,7 +388,7 @@ ul.posts li {
 	width: calc(100% + 6em);
 }
 
-.post>header .title {
+.title {
 	-moz-flex-grow: 1;
 	-webkit-flex-grow: 1;
 	-ms-flex-grow: 1;
@@ -401,12 +397,13 @@ ul.posts li {
 	padding: 3.75em 3em 3.3em 3em;
 }
 
-.post>header .title h2 {
+ .title h2 {
 	font-weight: 900;
 	font-size: 1.5em;
-}
+	font-size: 64px;
+} 
 
-.post>header .title> :last-child {
+ .post>header .title> :last-child {
 	margin-bottom: 0;
 }
 
@@ -488,7 +485,7 @@ body {
 }
 
 #header h1 a {
-	font-size: 0.7em;
+	font-size: 1em;
 }
 
 #header .links ul li {
@@ -555,17 +552,8 @@ body {
 	padding-top: 0;
 }
 
-#intro .logo {
-	border-bottom: 0;
-	display: inline-block;
-	margin: 0 0 1em 0;
-	overflow: hidden;
-	position: relative;
-	width: 4em;
-}
-
 #intro .logo:before {
-	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100px' height='100px' viewBox='0 0 100 100' preserveAspectRatio='none' zoomAndPan='disable'%3E%3Cpolygon points='0,0 100,0 100,25 50,0 0,25' style='fill:%23f4f4f4' /%3E%3Cpolygon points='0,100 100,100 100,75 50,100 0,75' style='fill:%23f4f4f4' /%3E%3C/svg%3E");
+	
 	background-position: top left;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -581,11 +569,11 @@ body {
 #intro .logo img {
 	display: block;
 	margin-left: -0.25em;
-	width: 4.5em;
+	width: 10.5em;
 }
 
 #intro header h2 {
-	font-size: 2em;
+	font-size: 1.5em;
 	font-weight: 900;
 }
 

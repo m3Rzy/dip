@@ -8,7 +8,6 @@ import { Routes, Route, Link } from 'react-router-dom';
 import { SearchApp } from './pages/search';
 import { HouseApp } from './pages/house';
 import { FamilyApp } from './pages/family';
-import { MainApp } from './pages/main';
 import { NewMain } from './pages/newmain';
 
 
