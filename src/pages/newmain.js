@@ -33,7 +33,7 @@ function NewMain() {
 			<article className="post">
 				<header>
 					<div className="title">
-						<h4><a href="#">Род Строгановых</a></h4>
+						<h4><a href="/family">Род Строгановых</a></h4>
 						<p>V веков истории рода Строгановых</p>
 					</div>
 					<div className="meta">
@@ -42,12 +42,12 @@ function NewMain() {
 								src={avatar} alt="" /></a>
 					</div>
 				</header>
-				<a href="#" className="image featured"><img src={p5} alt="" /></a>
+				<a href="/family" className="image featured"><img src={p5} alt="" /></a>
 				<p>Род русских промышленников и помещиков, из которого происходили крупные землевладельцы и
 					государственные деятели XVI—XX веков.</p>
 				<footer>
 					<ul className="actions">
-						<li><a href="#" className="button big">Читать подробнее</a></li>
+						<li><a href="/family" className="button big">Читать подробнее</a></li>
 					</ul>
 				</footer>
 			</article>
@@ -77,7 +77,7 @@ function NewMain() {
 			<article className="post">
 				<header>
 					<div className="title">
-						<h4><a href="#">Павел Сергеевич Строганов и его дом</a></h4>
+						<h4><a href="/house">Павел Сергеевич Строганов и его дом</a></h4>
 						<p>Подробная биография</p>
 					</div>
 					<div className="meta">
@@ -86,12 +86,12 @@ function NewMain() {
 								src={avatar} alt="" /></a>
 					</div>
 				</header>
-				<a href="#" className="image featured"><img src={p1} alt="" /></a>
+				<a href="/house" className="image featured"><img src={p1} alt="" /></a>
 				<p>Обер-шенк русского императорского двора, коллекционер, меценат; представитель славного рода
 					Строгановых</p>
 				<footer>
 					<ul className="actions">
-						<li><a href="#" className="button big">Читать подробнее</a></li>
+						<li><a href="/house" className="button big">Читать подробнее</a></li>
 					</ul>
 				</footer>
 			</article>
@@ -115,7 +115,7 @@ function NewMain() {
 
 					<article className="mini-post">
 						<header>
-							<h3><a href="#">Род Строгановых</a></h3>
+							<h3><a href="#">Экспонаты Строгановых</a></h3>
 							<time className="published" datetime="2015-10-20">Экспонаты коллекции Павла Сергеевича Строганова</time>
 							<a href="#" className="author"><img src={avatar} alt="" /></a>
 						</header>
