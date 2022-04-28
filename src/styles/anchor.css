@@ -1,0 +1,9 @@
+.anchor-mine {
+    width: 300px;
+    height: 100px;
+    /* margin-top: 500px; */
+    top: 500px;
+    
+    position: fixed;
+    margin-left: 30px;
+}

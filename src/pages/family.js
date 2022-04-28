@@ -6,24 +6,31 @@ import yop2 from '../assets/виднастрогановдачу.png';
 import sitmo from '../assets/logo-full.png';
 import '../fonts.css';
 import { useEffect, useState } from 'react';
+import AnchorExample from './anchor';
+
+
+
+
 
 
 function FamilyApp() {
     document.title = 'Род Строгановых';
     const [scrollTop, setScrollTop] = useState(0);
-
     const onScroll = () => {
         const winScroll = document.documentElement.scrollTop;
         const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
         const scrolled = (winScroll / height * 100);
-
+        
         setScrollTop(scrolled)
     }
 
     useEffect(() => {
         window.addEventListener("scroll", onScroll)
+        
         return () => window.removeEventListener("scroll", onScroll)
     })
+
+    
 
     return (
         
@@ -31,6 +38,7 @@ function FamilyApp() {
             <div className='progressMainWrapper'>
                 <div className='progressMainStyle' style={{width: `${scrollTop}%`}} />
             </div>
+            
             <div className="container-fluid">
                 
                 <div className="listheader2">
@@ -50,12 +58,15 @@ function FamilyApp() {
                         <div className="line"></div>
                     </div>
                 </div>
+                <AnchorExample />
+
             </div>
+            
             <div className="container-fluid2">
                 <div className="listheader-family">
                     <div className="subject5">
-                        <h className="title-veka">
-                            V веков истории рода Строгановых
+                        <h className="title-veka" id="part1">                      {/* перменная */}
+                        V веков истории рода Строгановых
                         </h>
                     </div>
                     <div className="subject2">
@@ -86,8 +97,8 @@ function FamilyApp() {
                     </div>
                     
 
-                    <div className="subject6">
-                        <h className="title-veka">
+                    <div className="subject5">
+                        <h className="title-veka" id="part2">
                             V веков истории рода Строгановых. Век XVI
                         </h>
                     </div>
@@ -128,6 +139,8 @@ function FamilyApp() {
             </div>
     </div>
     );
+
+    
 }
 
 export {FamilyApp};
