@@ -1,16 +1,38 @@
 import '../styles/family.css';
+import '../styles/scroll.css';
 import logo2 from '../assets/logo-whiye.png';
 import picture2 from '../assets/next.svg';
 import yop2 from '../assets/виднастрогановдачу.png';
 import sitmo from '../assets/logo-full.png';
 import '../fonts.css';
+import { useEffect, useState } from 'react';
 
 
 function FamilyApp() {
     document.title = 'Род Строгановых';
+    const [scrollTop, setScrollTop] = useState(0);
+
+    const onScroll = () => {
+        const winScroll = document.documentElement.scrollTop;
+        const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        const scrolled = (winScroll / height * 100);
+
+        setScrollTop(scrolled)
+    }
+
+    useEffect(() => {
+        window.addEventListener("scroll", onScroll)
+        return () => window.removeEventListener("scroll", onScroll)
+    })
+
     return (
+        
         <div className="FamilyApp">
+            <div className='progressMainWrapper'>
+                <div className='progressMainStyle' style={{width: `${scrollTop}%`}} />
+            </div>
             <div className="container-fluid">
+                
                 <div className="listheader2">
                     <a href="/">
                         <div className="logo">

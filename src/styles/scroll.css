@@ -1,0 +1,16 @@
+.progressMainWrapper {
+    background-color: transparent;
+    height: 7px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+
+}
+
+.progressMainStyle {
+    height: 7px;
+    background: #494949;
+    border-radius: 7px;
+}

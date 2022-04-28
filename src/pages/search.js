@@ -45,25 +45,25 @@ function SearchApp() {
             filterDropdown: ({setSelectedKeys, selectedKeys, confirm, clearFilters}) => {
                 return (
                 <>
-                <Input autoFocus placeholder="Введите название статьи" 
-                value={selectedKeys[0]}
-                onChange={(e)=>{
-                    setSelectedKeys(e.target.value?[e.target.value] : [])
-                    confirm({closeDropdown : false});
-                }}
-                onPressEnter={()=>{
-                    confirm()
-                }}
-                onBlur={() => {
-                    confirm()
-                }}></Input>;
+                <Input autoFocus placeholder="Введите название статьи"
+    value={selectedKeys[0]}
+    onChange={(e) => {
+        setSelectedKeys(e.target.value ? [e.target.value] : [])
+        confirm({closeDropdown: false});
+    }}
+    onPressEnter={() => {
+        confirm()
+    }}
+    onBlur={() => {
+        confirm()
+    }}/>;
                 <Button onClick={() => { confirm(); }} type='primary' >Поиск</Button>
                 <Button onClick={() => { clearFilters(); }} type='danger'>Сбросить</Button>
                 </>
                 );
             },
             filterIcon: () => {
-                return <SearchOutlined></SearchOutlined>;
+                return <SearchOutlined/>;
             },
             onFilter:(value, record)=> {
                 return record.name.toLowerCase().includes(value.toLowerCase())
