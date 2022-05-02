@@ -113,6 +113,44 @@ h6 {
 	font-size: 0.7em;
 }
 
+form {
+	position: relative;
+	width: 400px;
+	margin: 0 auto;
+	box-sizing: border-box;
+
+}
+input {
+	width: 100%;
+	height: 42px;
+	padding-left: 20px;
+	border: 1px solid #3c3b3b;
+	border-radius: 12px;
+	outline: none;
+	background: transparent;
+	color: #3c3b3b;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+.ready-btn {
+	position: absolute; 
+	top: 0;
+	right: 0px;
+	width: 42px;
+	height: 42px;
+	border: none;
+	background: #3c3b3b;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+	box-sizing: border-box;
+  }
+.ready-btn:before {
+	content: ">";
+	font-size: 14px;
+	color: #F9F0DA;
+	box-sizing: border-box;
+  }
+
 
 .author {
 	/* margin-top: 20px; */

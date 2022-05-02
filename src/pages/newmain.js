@@ -4,13 +4,15 @@ import logoblack from '../assets/logo-black.png';
 import p1 from '../assets/posts/1.png';
 import p2 from '../assets/posts/2.png';
 import p22 from '../assets/posts/2-2.png';
-import p3 from '../assets/posts/3.png';
 import p33 from '../assets/posts/3-3.png';
 import p44 from '../assets/posts/4-4.png';
 import p55 from '../assets/posts/5-5.png';
 import p5 from '../assets/posts/5.png';
 import vk from '../assets/posts/icons8-vk-в-круге-48.png';
 import gmail from '../assets/posts/icons8-gmail-48.png';
+import datapi from '../data/data.json';
+
+
 
 
 function NewMain() {
@@ -24,7 +26,12 @@ function NewMain() {
 			{/* <h1><a href="#">История о П. С. Строганове</a></h1> */}
 			<h1><a href="#"><img src={logoblack} width="250px"/></a></h1>
 			<nav className="links">
+				
 				<ul>
+					<li><form className="search-form">
+						<input type="text" placeholder="Искать здесь..." />
+						<button className="ready-btn" type="submit"></button>
+				</form></li>
 					<li><a href="/search">СТАТЬИ</a></li>
 					<li><a href="#openModal">КОНТАКТЫ</a></li>
 					{/* <li><a href="/search">ПОИСК</a></li> */}
@@ -54,6 +61,7 @@ function NewMain() {
   </div>
 </div>
 		<div id="main">
+			
 			<article className="post">
 				<header>
 					<div className="title">

@@ -30,11 +30,16 @@ function HouseApp() {
 
             </div>
         </div>
+        <section>
+            <div className='custom-anchor'>
+                <p><a href="#part3">Общая история</a></p>
+            </div>
+        </section>
     </div>
     <div className="container-fluid2">
         <div className="listheader-house">
             <div className="subject5">
-                <h className="title-veka">
+                <h className="title-veka" id="part3">
                     Общая история
                 </h>
             </div>

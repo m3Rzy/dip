@@ -4,7 +4,7 @@ import 'antd/dist/antd.css';
 import '../styles/search.css';
 import picture from '../assets/next.svg';
 import {SearchOutlined} from '@ant-design/icons';
-import { useHistory } from "react";
+
 
 
 
@@ -13,7 +13,7 @@ function SearchApp() {
     
 
     document.title = 'Павел Сергеевич Строганов — Поиск';
-    const [dataSource, setDataSource] = useState([
+    const [dataSource] = useState([
     {
     name: "Дом П. С. Строганова на Сергиевской улице",
     about: "*описание*",
@@ -23,12 +23,12 @@ function SearchApp() {
     {
     name: "Строгановские места в Санкт-Петербурге и России",
     about: "*описание*",
-    url:  <a href="/"><button className='custombtn'><span className='customspan'>Читать</span></button></a>,
+    url:  <a href="#/"><button className='custombtn'><span className='customspan'>Читать</span></button></a>,
     },
     {
     name: "Павел Сергеевич Строганов - биография",
     about: "*описание*",
-    url:  <a href="/"><button className='custombtn'><span className='customspan'>Читать</span></button></a>,
+    url:  <a href="#/"><button className='custombtn'><span className='customspan'>Читать</span></button></a>,
     },
     {
     name: "Род Строгановых",

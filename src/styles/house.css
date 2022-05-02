@@ -10,6 +10,19 @@
     height: 2300px;
 } */
 
+.custom-anchor {
+    background-color: #494949;
+    width: 140px;
+    height: 250px;
+    text-align: center;
+    border-radius: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 250px;
+    margin-left: 90px;
+}
+
 .subject5 {
     padding-right: 30px;
     display: flex;
