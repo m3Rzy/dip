@@ -27,35 +27,34 @@ function NewMain() {
 			<nav className="links">
 				
 				<ul>
-					<li></li>
-					<li><a href="/search">СТАТЬИ</a></li>
-					<li><a href="#openModal">КОНТАКТЫ</a></li>
+					<li className='icons-li'></li>
+					<li className='icons-li'><a href="/search">СТАТЬИ</a></li>
+					<li className='icons-li'><a href="#openModal">КОНТАКТЫ</a></li>
 					{/* <li><a href="/search">ПОИСК</a></li> */}
 				</ul>
 			</nav>
 		</header>
 		<div id="openModal" className="modal">
-  <div className="modal-dialog">
-    <div className="modal-content">
-      <div className="modal-header">
-        <h3 className="modal-title">Контакты</h3>
-        <a href="#close" title="Close" className="close">×</a>
-      </div>
-      <div className="modal-body">    
-	  <ul className="icons">
-					<li><a href="https://vk.com/itmoru" className="fa-instagram"><img src={vk} width="40px"/></a></li>
-					<li></li>
-					<li></li>
-					<li><a href="abit@itmo.ru" className="fa-envelope"><img src={gmail} width="40px"/></a></li>
-					<li></li>
-					<li></li>
-					<li><a href="">+7 (812) 480-04-80</a></li>
-					
-				</ul>
-      </div>
-    </div>
-  </div>
-</div>
+			<div className="modal-dialog">
+				<div className="modal-content">
+				<div className="modal-header">
+					<h3 className="modal-title">Контакты</h3>
+					<a href="#close" title="Close" className="close">×</a>
+				</div>
+				<div className="modal-body">    
+							<ul className="icons">
+								<li><a href="https://vk.com/itmoru" className="fa-instagram"><img src={vk} width="40px"/></a></li>
+								<li></li>
+								<li></li>
+								<li><a href="abit@itmo.ru" className="fa-envelope"><img src={gmail} width="40px"/></a></li>
+								<li></li>
+								<li></li>
+								<li><a href="">+7 (812) 480-04-80</a></li>
+							</ul>
+				</div>
+				</div>
+			</div>
+		</div>
 		<div id="main">
 			
 			<article className="post">
@@ -125,10 +124,10 @@ function NewMain() {
 				</footer>
 				
 			</article>
-			{/* <ul className="actions pagination">
-				<li><a href="" className="disabled button big previous">Предыдущая страница</a></li>
-				<li><a href="#" className="button big next">Следующая страница</a></li>
-			</ul> */}
+			<ul className="actions pagination">
+				{/* <li><a href="" className="disabled button big previous">Предыдущая страница</a></li> */}
+				<li><a href="#" className="button big next">Дальше</a></li>
+			</ul>
 			
 		</div>
 
@@ -193,10 +192,10 @@ function NewMain() {
 
 			<section id="footer">
 				<ul className="icons">
-					<li><a href="https://vk.com/itmoru" className="fa-instagram"><img src={vk} width="40px"/></a></li>
-					<li></li>
-					<li></li>
-					<li><a href="abit@itmo.ru" className="fa-envelope"><img src={gmail} width="40px"/></a></li>
+					<li className='icons-li'><a href="https://vk.com/itmoru" className="fa-instagram"><img src={vk} width="40px"/></a></li>
+					<li className='icons-li'></li>
+					<li className='icons-li'></li>
+					<li className='icons-li'><a href="abit@itmo.ru" className="fa-envelope"><img src={gmail} width="40px"/></a></li>
 				</ul>
 				<p className="copyright">&copy; <a href="#">Университет ИТМО</a>.</p>
 			</section>

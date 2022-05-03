@@ -80,10 +80,6 @@
     border-radius: 16px;
 }
 
-/* body {
-    height: 2300px;
-} */
-
 .picture1-info {
     font-size: 12px;
     font-weight: bold;
@@ -128,12 +124,6 @@
     height: 250px;
 }
 
-
-
-p {
-    /* text-indent: 30px; */
-}
-
 .main-p {
     text-indent: 70px;
 }
@@ -155,13 +145,6 @@ p {
 
 .picture2 {
     border-radius: 20px;
-}
-
-a {
-    font-family: "ManropeRegular";
-    outline: none;
-    text-decoration: none;
-    color: #fff;
 }
 
 p {
