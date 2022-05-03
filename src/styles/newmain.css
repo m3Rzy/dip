@@ -56,11 +56,15 @@ a:before {
 
 a:hover {
 	border-bottom-color: transparent;
-	color: #CBD0B4 !important;
+	/* color: #CBD0B4 !important; */
+	color: #1890ff !important;
+
+
 }
 
 a:hover:before {
-	color: #CBD0B4 !important;
+	/* color: #CBD0B4 !important; */
+	color: #1890ff !important;
 }
 
 
@@ -284,16 +288,16 @@ label {
 	width: 100%;
 }
 
-ul {
+/* ul {
 	list-style: disc;
 	margin: 0 0 2em 0;
 	padding-left: 1em;
-}
+} */
 
-ul li {
+/* ul li {
 	padding-left: 0.5em;
 	display: inline-block;
-}
+} */
 
 ul.alt {
 	list-style: none;

@@ -2,7 +2,7 @@
     background-image: url("../assets/castle.png");
     background-size: cover;
     width: 100%;
-    height: 932px;
+    height: 962px;
     background-repeat: no-repeat;
 }
 
@@ -23,13 +23,6 @@
     margin-left: 90px;
 }
 
-.subject5 {
-    padding-right: 30px;
-    display: flex;
-    margin-top: 100px;
-    text-align: justify;
-    font-size: 16px;
-}
 
 .title-veka {
     font-family: 'ManropeRegular';
@@ -155,26 +148,4 @@ a {
     color: #F4F7E7;
     text-decoration: none!important;
     /* border: #fff 1px solid; */
-}
-
-.subject6 {
-    text-indent: 70px;
-    display: flex;
-    margin-top: 50px;
-    text-align: justify;
-    font-size: 16px;
-}
-
-.subject7 {
-    display: flex;
-    margin-top: 5px;
-    text-align: justify;
-    font-size: 16px;
-}
-
-.subject8 {
-    display: flex;
-    margin-top: 15px;
-    text-align: justify;
-    font-size: 16px;
 }

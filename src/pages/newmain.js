@@ -10,7 +10,6 @@ import p55 from '../assets/posts/5-5.png';
 import p5 from '../assets/posts/5.png';
 import vk from '../assets/posts/icons8-vk-в-круге-48.png';
 import gmail from '../assets/posts/icons8-gmail-48.png';
-import datapi from '../data/data.json';
 
 
 
@@ -28,10 +27,7 @@ function NewMain() {
 			<nav className="links">
 				
 				<ul>
-					<li><form className="search-form">
-						<input type="text" placeholder="Искать здесь..." />
-						<button className="ready-btn" type="submit"></button>
-				</form></li>
+					<li></li>
 					<li><a href="/search">СТАТЬИ</a></li>
 					<li><a href="#openModal">КОНТАКТЫ</a></li>
 					{/* <li><a href="/search">ПОИСК</a></li> */}

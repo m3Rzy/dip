@@ -1,9 +1,12 @@
 .anchor-mine {
+    
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
     width: 300px;
-    height: 100px;
+    height: 90px;
     /* margin-top: 500px; */
     top: 500px;
-    
+    font-size: 12px;
     position: fixed;
     margin-left: 30px;
 }
