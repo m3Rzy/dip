@@ -133,7 +133,9 @@
 }
 
 .title-veka {
-    font-family: 'ManropeRegular';
+    color: black;
+    font-weight: bold;
+    font-family: 'Source Sans Pro';
     font-size: 36px;
 }
 
@@ -148,7 +150,7 @@
 }
 
 p {
-    font-family: "ManropeRegular";
+    font-family: "Source Sans Pro";
 }
 
 .subject1 {
@@ -165,13 +167,13 @@ p {
 }
 
 .title_main {
-    font-family: "ManropeRegular";
+    font-family: "Source Sans Pro";
     font-size: 54px;
     color: #F4F7E7;
 }
 
 .title_help {
-    font-family: "ManropeRegular";
+    font-family: "Source Sans Pro";
     font-size: 11px;
     color: #F4F7E7;
     font-weight: 100;
@@ -183,7 +185,7 @@ p {
 
 .nextbutton,
 .nextbutton:hover {
-    font-family: "ManropeRegular";
+    font-family: "Source Sans Pro";
     font-size: 14px;
     padding-left: 10px;
     color: #F4F7E7;
@@ -208,7 +210,7 @@ p {
     margin-top: -30px;
     margin-left: 64px;
     font-weight: lighter;
-    font-family: "ManropeRegular";
+    font-family: "Source Sans Pro";
     font-size: 14px;
     color: white;
     width: 164px;
@@ -230,5 +232,17 @@ p {
     color: white;
     margin-left: 64px;
     margin-top: 24px;
-    font-size: 13px;
+    font-size: 12px;
+    width: 200px;
+    display: inline;
+    
+}
+
+.footer-pravo {
+    width: 415px;
+    padding-left: 500px;
+    margin-top: 24px;
+    display: inline;
+    font-size: 12px;
+    color: white;
 }

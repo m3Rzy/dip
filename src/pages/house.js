@@ -72,7 +72,8 @@ function HouseApp() {
     </div>
     <div className="container-fluid2">
         <div className="listheader-house">
-            <div className="subject5">
+        <div style={{marginTop: 75}}></div>
+            <div className="subject5"> 
                 <h className="title-veka" id="part1">
                     Общая история
                 </h>

@@ -41,7 +41,7 @@ select {
 a {
 	text-decoration: none;
 	font-size: 14px;
-	font-family: "ManropeRegular";
+	font-family: "Source Sans Pro";
 	outline: none;
     color: #444444;
 }
@@ -84,7 +84,7 @@ h4,
 h5,
 h6 {
 	color: #3c3b3b;
-	font-family: "Raleway", Helvetica, sans-serif;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	font-weight: 800;
 	letter-spacing: 0.25em;
 	line-height: 1.65;
@@ -247,7 +247,7 @@ input {
 	color: #3c3b3b !important;
 	cursor: pointer;
 	display: inline-block;
-	font-family: "Raleway", Helvetica, sans-serif;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	font-size: 0.6em;
 	font-weight: 800;
 	height: 4.8125em;
@@ -406,7 +406,7 @@ ul.posts li {
 
 .mini-post header .published {
 	display: block;
-	font-family: "Raleway", Helvetica, sans-serif;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	font-size: 0.6em;
 	font-weight: 400;
 	letter-spacing: 0.25em;
@@ -475,7 +475,7 @@ ul.posts li {
 .post>header .meta .published {
 	color: #3c3b3b;
 	display: block;
-	font-family: "Raleway", Helvetica, sans-serif;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	font-size: 0.7em;
 	font-weight: 800;
 	letter-spacing: 0.25em;
@@ -485,7 +485,7 @@ ul.posts li {
 }
 
 header p {
-	font-family: "Raleway", Helvetica, sans-serif;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	font-size: 0.7em;
 	font-weight: 400;
 	letter-spacing: 0.25em;
@@ -555,7 +555,7 @@ header p {
 
 #header .links ul li a {
 	border-bottom: 0;
-	font-family: "Raleway", Helvetica, sans-serif;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	font-size: 0.7em;
 	font-weight: 400;
 	letter-spacing: 0.25em;
@@ -645,7 +645,7 @@ header p {
 
 #footer .copyright {
 	color: #aaaaaa;
-	font-family: "Raleway", Helvetica, sans-serif;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	font-size: 0.5em;
 	font-weight: 400;
 	letter-spacing: 0.25em;

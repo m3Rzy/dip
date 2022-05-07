@@ -23,10 +23,41 @@
     margin-left: 90px;
 }
 
+.strog-img {
+    border-radius: 15px;
+    width: 410px;
+    height: 475px;
+}
+
+.higher-p {
+    display: inline;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.podimg {
+    font-style: italic;
+    margin-top: 2px;
+    font-size: 14px;
+    text-align: left;
+    max-width: fit-content;
+    font-family: "Spectral-MediumItalic";
+}
+
+.hyperurl {
+    font-size: 16px;
+    color: #ab8c43;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 800;
+}
 
 .title-veka {
-    font-family: 'ManropeRegular';
+    color: black;
+    font-weight: bold;
+    font-family: 'Source Sans Pro';
     font-size: 36px;
+    
 }
 
 /* a {
@@ -37,7 +68,7 @@
 } */
 
 p {
-    font-family: "ManropeRegular";
+    font-family: "Source Sans Pro";
 }
 
 .listheader-house {
@@ -78,13 +109,13 @@ p {
 }
 
 .title_main {
-    font-family: "ManropeRegular";
+    font-family: "Source Sans Pro";
     font-size: 54px;
     color: #F4F7E7;
 }
 
 .title_help {
-    font-family: "ManropeRegular";
+    font-family: "Source Sans Pro";
     font-size: 14px;
     color: #F4F7E7;
     font-weight: 100;
@@ -135,7 +166,7 @@ p {
 
 .nextbutton,
 .nextbutton:hover {
-    font-family: "ManropeRegular";
+    font-family: "Source Sans Pro";
     font-size: 14px;
     padding-left: 10px;
     color: #F4F7E7;
