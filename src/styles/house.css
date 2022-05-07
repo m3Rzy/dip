@@ -94,11 +94,19 @@ p {
     margin-top: 55px;
 }
 
+.backButton-my {
+    cursor: pointer;
+    color: white;
+    padding-left: 10px;
+}
+
 .nextbtn {
+    
     margin-top: 50px;
 }
 
 .nextsvg {
+    cursor: pointer;
     transform: scale(-1, 1);
 }
 

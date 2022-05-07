@@ -1,17 +1,19 @@
 import logo from '../assets/logo-whiye.png';
-import picture from '../assets/next.svg';
 import '../styles/house.css';
 import '../styles/allObjects.css';
 import '../fonts.css';
 import sitmo from '../assets/logo-full.png';
 import React, { useState, useEffect } from 'react';
 import { Anchor } from 'antd';
+import picture2 from '../assets/next.svg';
+import { useNavigate } from 'react-router-dom'
 import '../styles/anchor.css';
 const { Link } = Anchor;
 
 
 function HouseApp() {
     document.title = 'Дом П. С. Строганова';
+    const history = useNavigate();
     const [targetOffset, setTargetOffset] = useState(undefined);
     const [scrollTop, setScrollTop] = useState(0);
     const [vizy, onOpacity] = useState(0)
@@ -53,9 +55,9 @@ function HouseApp() {
             </a>
 
             <div className="nextbtn">
-                <img src={picture} alt="#" className="nextsvg" />
-                <a href="/" className="nextbutton">Назад</a>
-            </div>
+                        <img src={picture2} alt="#" className="nextsvg" onClick={() => history(-1)}/>
+                        <a className='backButton-my' onClick={() => history(-1)}>Назад</a>
+                    </div>
             <div className="titles">
                 <h1 className="title_main">Дом П. С. Строганова на Сергиевской улице</h1>
                 <h3 className="title_help">Дворец Строгановых, построенный по проекту архитектора Франческо Бартоломео Растрелли в 1753—1754 годах, один из образцов уникального растреллиевского «барочно-рокайльного стиля».</h3>

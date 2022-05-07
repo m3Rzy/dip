@@ -5,19 +5,20 @@ import logo2 from '../assets/logo-whiye.png';
 import picture2 from '../assets/next.svg';
 import sitmo from '../assets/logo-full.png';
 import '../fonts.css';
-import strog from '../assets/img-pages/strog.jpg';
 import kochubej from '../assets/img-pages/kochubej.jpg'
 import sgd_father from '../assets/img-pages/SGD.jpg'
 import ssg_son from '../assets/img-pages/SSG.jpg'
-import sas_son from '../assets/img-pages/SAS.jpg'
+import granovski from '../assets/img-pages/granovskii.jpg'
 import React, { useState, useEffect } from 'react';
 import { Anchor } from 'antd';
 import '../styles/anchor.css';
+import { useNavigate } from 'react-router-dom'
+
+
 const { Link } = Anchor;
-
-
 function FamilyApp() {
     document.title = 'Род Строгановых';
+    const history = useNavigate();
     const [targetOffset, setTargetOffset] = useState(undefined);
     const [scrollTop, setScrollTop] = useState(0);
     const [vizy, onOpacity] = useState(0)
@@ -62,11 +63,11 @@ function FamilyApp() {
                             <img src={logo2} alt="" width="250px" className="logo_img-family" />
                         </div>
                     </a>
-
                     <div className="nextbtn">
-                        <img src={picture2} alt="#" className="nextsvg" />
-                        <a href="/" className="nextbutton">Назад</a>
+                        <img src={picture2} alt="#" className="nextsvg" onClick={() => history(-1)}/>
+                        <a className='backButton-my' onClick={() => history(-1)}>Назад</a>
                     </div>
+                    {/* <button onClick={() => history(-1)}></button>  */}
                     <div className="titles">
                         <h1 className="title_main">Род Строганова</h1>
                         <h3 className="title_help">Род русских промышленников и помещиков, из которого происходили крупные землевладельцы и государственные деятели XVI—XX веков.</h3>
@@ -76,9 +77,12 @@ function FamilyApp() {
                     <section className='anchor-mine' style={{opacity: `${vizy}%`}}>
                         <Anchor targetOffset={targetOffset} affix={true}>
                             <Link href="#supertitle" title="Заголовок"/>
-                            <Link href="#part1" title="Служение России: Строгановы"/>
-                                <Link href="#ssg" title="Александр Григорьевич Строганов"></Link>
-                            <Link href="#part2" title="Государственный деятель и меценат" />
+                            <Link href="#part1" title="Служение России: Строгановы" /> 
+                                <Link href="#ssg" title="Александр Григорьевич Строганов">
+                                    <Link href="#part2" title="Государственный деятель и меценат" />
+                                    <Link href="#war" title="Служебная карьера" />
+                                </Link>
+                            
                         </Anchor>
                     </section>
             </div>
@@ -136,6 +140,19 @@ function FamilyApp() {
                     </div>
                     <div className="textarea-normal">
                         <p>Продолжая военную службу С. Г. Строганов (с сентября 1828 года – генерал-майор) участвует в русско-турецкой войне 1828–1829 годов. В это же время он привлекается к работе различных государственных комитетов. Еще в чине полковника граф стал членом Комитета устройства учебных заведений (1826–1835). Первым опытом работы комитета стал новый устав гимназий, изданный 8 декабря 1828 года. Строганов принимал участие и в подготовке нового университетского устава, вступившего в силу в 1835 году.</p>
+                    </div>
+                    <div className="textarea-normal" id="war">
+                        <p>Служебная карьера С. Г. Строганова складывалась удачно. В 1831 году, будучи губернатором в Риге, граф заслужил доверие жителей благоразумными мерами во время холеры. В 1832–1834 годах Строганов – военный губернатор в Минской губернии, где также оставил по себе добрую память. Он имел звания генерала от кавалерии, генерал-адъютанта, участвовал в Крымской войне 1853–1856 годов, был сенатором, кавалером ордена Св. Александра Невского.</p>
+                    </div>
+                    <div className="textarea-normal">
+                        <p>Сергей Григорьевич не забывал о своих научных и художественных увлечениях. Он – основатель и председатель (пожизненно) Императорской Археологической комиссии, располагавшейся в его петербургском дворце в течение 23 лет. Строганов состоял членом высочайше утвержденной комиссии для построения храма Христа Спасителя в Москве.</p>
+                    </div>
+                    <div className="textarea-normal">
+                        <p>Москве он отдал лучшие годы. Высочайшим указом от 1 июля 1835 года Строганов был назначен попечителем Московского учебного округа и Московского университета. Его 12-летнее управление связано с блестящей эпохой процветания различных учебных заведений Москвы, и прежде всего Московского университета. Это было «самое счастливое время для университета по отсутствию всяких стеснений и формализма». «При нем, – вспоминал о Строганове профессор Б. Н. Чичерин, – университет весь обновился свежими силами. Все старое, запоздалое, рутинное устранялось. Главное внимание просвещенного попечителя было устремлено на то, чтобы кафедры были замещены людьми со знанием и талантом. Он отыскивал их всюду…» В эти годы С. Г. Строганов оказал поддержку плеяде молодых профессоров университета во главе с <a href="#" className='hyperurl'>Т. Н. Грановским</a>. Он многое сделал и для нужд студентов, для улучшения положения гимназий, расширил возможности образования для мещан и ремесленников.</p>
+                    </div>
+                    <div style={{marginLeft: 400}}>
+                        <img src={granovski} className="strog-img"></img>
+                        <p className='podimg'>Портрет Т.Н.Грановского. 1903 г.</p>
                     </div>
 
 
