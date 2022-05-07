@@ -10,6 +10,8 @@ import p55 from '../assets/posts/5-5.png';
 import p5 from '../assets/posts/5.png';
 import vk from '../assets/posts/icons8-vk-в-круге-48.png';
 import gmail from '../assets/posts/icons8-gmail-48.png';
+import '../styles/allObjects.css';
+import nullimg from '../assets/img-pages/null.png';
 
 
 
@@ -61,10 +63,10 @@ function NewMain() {
 				<header>
 					<div className="title">
 						<h4><a href="/family">Род Строгановых</a></h4>
-						<p>V веков истории рода Строгановых</p>
+						<p>Служение России. Великие предприниматели и меценаты Строгановы</p>
 					</div>
 					<div className="meta">
-						<h5>"Автор №1"</h5>
+						<h5>НАУЧНАЯ СТАТЬЯ</h5>
 						<a href="#" className="author"><span className="name">Университет ИТМО</span><img
 								src={avatar} alt="" /></a>
 					</div>
@@ -86,7 +88,7 @@ function NewMain() {
 						<p>Общая информация</p>
 					</div>
 					<div className="meta">
-					<h5>"Автор №2"</h5>
+					<h5>Университет ИТМО</h5>
 						<a href="#" className="author"><span className="name">Университет ИТМО</span><img
 								src={avatar} alt="" /></a>
 					</div>
@@ -120,10 +122,70 @@ function NewMain() {
 					<ul className="actions">
 						<li><a href="/house" className="button big">Читать подробнее</a></li>
 					</ul>
-					
 				</footer>
-				
 			</article>
+			<article className="post">
+				<header>
+					<div className="title">
+						<h4><a href="/house">Сергей Григорьевич Строганов – один из ярчайших российских вельмож</a></h4>
+						<p>Подробная биография</p>
+					</div>
+					<div className="meta">
+					<h5>"Автор №3"</h5>
+						<a href="#" className="author"><span className="name">Университет ИТМО</span><img
+								src={avatar} alt="" /></a>
+					</div>
+				</header>
+				<a href="/house" className="image featured"><img src={nullimg} alt="" /></a>
+				<p>Либерал? Ретроград? Почвенник? Западник? Великий гуманист? Безжалостный рубака? Все эти социальные ниши вроде бы подходили ему. Но ведь так не бывает!</p>
+				<footer>
+					<ul className="actions">
+						<li><a href="/house" className="button big">Читать подробнее</a></li>
+					</ul>
+				</footer>
+			</article>
+			<article className="post">
+				<header>
+					<div className="title">
+						<h4><a href="/house">Сольвычегодск. Строганов Аникей Фёдорович</a></h4>
+						<p>Подробная биография</p>
+					</div>
+					<div className="meta">
+					<h5>"Автор №3"</h5>
+						<a href="#" className="author"><span className="name">Университет ИТМО</span><img
+								src={avatar} alt="" /></a>
+					</div>
+				</header>
+				<a href="/house" className="image featured"><img src={nullimg} alt="" /></a>
+				<p>Строганов Аникей Фёдорович (1488-1570) — создатель солеваренной промышленности в Сольвычегодске и в Перми, крупнейший русский предприниматель своего времени, государственный деятель.</p>
+				<footer>
+					<ul className="actions">
+						<li><a href="/house" className="button big">Читать подробнее</a></li>
+					</ul>
+				</footer>
+			</article>
+			<article className="post">
+				<header>
+					<div className="title">
+						<h4><a href="/house">П. С. Строганов и его супруга</a></h4>
+						<p>Подробная биография</p>
+					</div>
+					<div className="meta">
+					<h5>"Автор №3"</h5>
+						<a href="#" className="author"><span className="name">Университет ИТМО</span><img
+								src={avatar} alt="" /></a>
+					</div>
+				</header>
+				<a href="/house" className="image featured"><img src={nullimg} alt="" /></a>
+				<p>Граф Павел Сергеевич Строганов (1823—1911) — обер-шенк русского императорского двора, коллекционер, меценат; старший брат Григория Сергеевича Строганова.</p>
+				<footer>
+					<ul className="actions">
+						<li><a href="/house" className="button big">Читать подробнее</a></li>
+					</ul>
+				</footer>
+			</article>
+
+
 			<ul className="actions pagination">
 				{/* <li><a href="" className="disabled button big previous">Предыдущая страница</a></li> */}
 				<li><a href="#" className="button big next">Дальше</a></li>
@@ -145,40 +207,62 @@ function NewMain() {
 
 					<article className="mini-post">
 						<header>
-							<h3><a href="#">Экспонаты Строгановых</a></h3>
-							<time className="published" datetime="2015-10-20">Экспонаты коллекции Павла Сергеевича Строганова</time>
+							<h3><a href="/family/acollection">Коллекции графа А. С. Строганова</a></h3>
+							<time className="published" datetime="2015-10-20">Граф Александр Сергеевич Строганов — крупнейший коллекционер своего времени</time>
 							<a href="#" className="author"><img src={avatar} alt="" /></a>
 						</header>
-						<a href="#" className="image"><img src={p44} alt="" /></a>
+						<a href="/family/acollection" className="image"><img src={nullimg} alt="" /></a>
 					</article>
 
 					<article className="mini-post">
 						<header>
-							<h3><a href="#">Интерьеры, коллекции Строгановых</a></h3>
-							<time className="published" datetime="2015-10-19">"Зеленая гостиная", "желтая гостиная" и множество других интересных помещений...</time>
+							<h3><a href="#">Самые яркие дела Строгановых</a></h3>
+							<time className="published" datetime="2015-10-19">Это произошло благодаря первопроходцам и купцам из Новгорода, которые оценили эту местность, находящуюся на пересечении двух водных артерий.</time>
 							<a href="#" className="author"><img src={avatar} alt="" /></a>
 						</header>
-						<a href="#" className="image"><img src={p22} alt="" /></a>
+						<a href="#" className="image"><img src={nullimg} alt="" /></a>
 					</article>
 
 					<article className="mini-post">
 						<header>
-							<h3><a href="#">Первая мировая война</a></h3>
-							<time className="published" datetime="2015-10-18">Фотографии из музея обороны "Борнхольма"</time>
+							<h3><a href="#">Дача Строгановых</a></h3>
+							<time className="published" datetime="2015-10-18">Большая территория между Большой Невкой и Черной речкой</time>
 							<a href="#" className="author"><img src={avatar} alt="" /></a>
 						</header>
-						<a href="#" className="image"><img src={p33} alt="" /></a>
+						<a href="#" className="image"><img src={nullimg} alt="" /></a>
 					</article>
-
 					<article className="mini-post">
 						<header>
-							<h3><a href="#">Строгановские места в Санкт-Петербурге и России</a></h3>
-							<time className="published" datetime="2015-10-17">Объект историко-культурнуго наследия</time>
+							<h3><a href="#">СТРОГАНОВСКАЯ ИКОНОПИСНАЯ ШКОЛА</a></h3>
+							<time className="published" datetime="2015-10-17">Наиболее яркое явление в поздней древнерусской иконописи. Ее хронологические рамки определяются второй половиной 16 – первой половиной 17 в.</time>
 							<a href="#" className="author"><img src={avatar} alt="" /></a>
 						</header>
-						<a href="#" className="image"><img src={p55} alt="" /></a>
+						<a href="#" className="image"><img src={nullimg} alt="" /></a>
 					</article>
-
+					<article className="mini-post">
+						<header>
+							<h3><a href="#">Cтрогановское барокко</a></h3>
+							<time className="published" datetime="2015-10-17">Архитектурное направение конца 17-начала 18 вв</time>
+							<a href="#" className="author"><img src={avatar} alt="" /></a>
+						</header>
+						<a href="#" className="image"><img src={nullimg} alt="" /></a>
+					</article>
+					<article className="mini-post">
+						<header>
+							<h3><a href="#">Строгановское шитье</a></h3>
+							<time className="published" datetime="2015-10-17">Вышивание было широко распространено на Руси — драгоценные ткани у нас начали производить только с XVIII века.</time>
+							<a href="#" className="author"><img src={avatar} alt="" /></a>
+						</header>
+						<a href="#" className="image"><img src={nullimg} alt="" /></a>
+					</article>
+					<article className="mini-post">
+						<header>
+							<h3><a href="#">Тамбовское имение</a></h3>
+							<time className="published" datetime="2015-10-17">Село Кариан-Знаменское расположено в 35 верстах от Тамбова, в селе Знаменское.</time>
+							<a href="#" className="author"><img src={avatar} alt="" /></a>
+						</header>
+						<a href="#" className="image"><img src={nullimg} alt="" /></a>
+					</article>
 				</div>
 			</section>
 
@@ -200,7 +284,6 @@ function NewMain() {
 				<p className="copyright">&copy; <a href="#">Университет ИТМО</a>.</p>
 			</section>
 		</section>
-		
 	</div>
         </>
     );

@@ -6,7 +6,7 @@ import { SearchApp } from './pages/search';
 import { HouseApp } from './pages/house';
 import { FamilyApp } from './pages/family';
 import { NewMain } from './pages/newmain';
-
+import { CollectionAlexanderApp } from './pages/Alexander/collection'
 
 
 
@@ -18,6 +18,7 @@ function App() {
                 <Route path="/" element={<NewMain />}/>
                 <Route path="/search2" element={<SearchApp />}/>
                 <Route path="/search" element={<ListArticles />}/>
+                <Route path="/family/acollection" element={<CollectionAlexanderApp />} />
             </Routes>
     );
 }
