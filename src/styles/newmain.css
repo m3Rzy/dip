@@ -390,6 +390,18 @@ ul.posts li {
 	transform: scale(1.05);
 }
 
+.icons li {
+	display: inline-block;
+}
+
+.icons {
+	width: 55%;
+	justify-content: center;
+	margin: 0 auto;
+	display: flex;
+  	justify-content: space-between;
+}
+
 .mini-post header {
 	padding: 1.25em 4.25em 0.1em 1.25em;
 	min-height: 4em;

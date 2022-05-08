@@ -1,5 +1,4 @@
 import '../styles/newmain.css';
-// import avatar from '../assets/logo.jpg';
 import avatar from '../assets/logo-blue.png'
 import logoblack from '../assets/logo-black.png';
 import p1 from '../assets/posts/1.png';
@@ -40,9 +39,10 @@ function NewMain() {
 			<nav className="links">
 				
 				<ul>
-					<li className='icons-li'></li>
-					<li className='icons-li'><a href="/search">СТАТЬИ</a></li>
-					<li className='icons-li'><a href="#openModal">КОНТАКТЫ</a></li>
+					<li className='icons-li'	style={{marginRight: 50}}><a href="/">ПОДЕЛИТЬСЯ</a></li>
+					<li className='icons-li'	style={{marginRight: 50}}><a href="/">ОБРАТНАЯ СВЯЗЬ</a></li>
+					<li className='icons-li'	style={{marginRight: 50}}><a href="/search">ВСЕ СТАТЬИ</a></li>
+					<li className='icons-li'	style={{marginRight: 50}}><a href="#openModal">КОНТАКТЫ</a></li>
 					{/* <li><a href="/search">ПОИСК</a></li> */}
 				</ul>
 			</nav>
@@ -59,10 +59,10 @@ function NewMain() {
 								<li><a href="https://vk.com/itmoru" className="fa-instagram"><img src={vk} width="40px"/></a></li>
 								<li></li>
 								<li></li>
-								<li><a href="abit@itmo.ru" className="fa-envelope"><img src={gmail} width="40px"/></a></li>
-								<li></li>
-								<li></li>
 								<li><a href="">+7 (812) 480-04-80</a></li>
+								<li></li>
+								<li></li>
+								<li><a href="abit@itmo.ru" className="fa-envelope"><img src={gmail} width="40px"/></a></li>
 							</ul>
 				</div>
 				</div>
@@ -77,7 +77,6 @@ function NewMain() {
 						<p>Служение России. Великие предприниматели и меценаты Строгановы</p>
 					</div>
 					<div className="meta">
-						<h5>НАУЧНАЯ СТАТЬЯ</h5>
 						<a href="#" className="author"><span className="name">Университет ИТМО</span><img
 								src={avatar} alt="" /></a>
 					</div>
@@ -99,7 +98,6 @@ function NewMain() {
 						<p>Общая информация</p>
 					</div>
 					<div className="meta">
-					<h5>Университет ИТМО</h5>
 						<a href="#" className="author"><span className="name">Университет ИТМО</span><img
 								src={avatar} alt="" /></a>
 					</div>
@@ -121,7 +119,7 @@ function NewMain() {
 						<p>Подробная биография</p>
 					</div>
 					<div className="meta">
-					<h5>"Автор №3"</h5>
+					
 						<a href="#" className="author"><span className="name">Университет ИТМО</span><img
 								src={avatar} alt="" /></a>
 					</div>
@@ -142,7 +140,7 @@ function NewMain() {
 						<p>Подробная биография</p>
 					</div>
 					<div className="meta">
-					<h5>"Автор №3"</h5>
+					
 						<a href="#" className="author"><span className="name">Университет ИТМО</span><img
 								src={avatar} alt="" /></a>
 					</div>
@@ -162,7 +160,7 @@ function NewMain() {
 						<p>Подробная биография</p>
 					</div>
 					<div className="meta">
-					<h5>"Автор №3"</h5>
+					
 						<a href="#" className="author"><span className="name">Университет ИТМО</span><img
 								src={avatar} alt="" /></a>
 					</div>
@@ -182,7 +180,7 @@ function NewMain() {
 						<p>Подробная биография</p>
 					</div>
 					<div className="meta">
-					<h5>"Автор №3"</h5>
+					
 						<a href="#" className="author"><span className="name">Университет ИТМО</span><img
 								src={avatar} alt="" /></a>
 					</div>
