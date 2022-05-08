@@ -3,15 +3,20 @@ import avatar from '../assets/logo.jpg';
 import logoblack from '../assets/logo-black.png';
 import p1 from '../assets/posts/1.png';
 import p2 from '../assets/posts/2.png';
-import p22 from '../assets/posts/2-2.png';
-import p33 from '../assets/posts/3-3.png';
-import p44 from '../assets/posts/4-4.png';
-import p55 from '../assets/posts/5-5.png';
+import collection_post from '../assets/img-pages/collection.png'
+import rod_post from '../assets/img-pages/rod.png'
+import town_post from '../assets/img-pages/town.png'
+import barokko_post from '../assets/img-pages/barokko.png'
+import icon_post from '../assets/img-pages/icon.png'
+import shee_post from '../assets/img-pages/shee.png'
+import tamb_post from '../assets/img-pages/tamb.png'
+import sgs_post from '../assets/posts/sgs.png'
+import city_post from '../assets/posts/city.png'
 import p5 from '../assets/posts/5.png';
 import vk from '../assets/posts/icons8-vk-в-круге-48.png';
 import gmail from '../assets/posts/icons8-gmail-48.png';
 import '../styles/allObjects.css';
-import nullimg from '../assets/img-pages/null.png';
+import nullimg_post from '../assets/posts/null_post.png';
 
 
 
@@ -136,7 +141,7 @@ function NewMain() {
 								src={avatar} alt="" /></a>
 					</div>
 				</header>
-				<a href="/house" className="image featured"><img src={nullimg} alt="" /></a>
+				<a href="/house" className="image featured"><img src={sgs_post} alt="" /></a>
 				<p>Либерал? Ретроград? Почвенник? Западник? Великий гуманист? Безжалостный рубака? Все эти социальные ниши вроде бы подходили ему. Но ведь так не бывает!</p>
 				<footer>
 					<ul className="actions">
@@ -156,7 +161,7 @@ function NewMain() {
 								src={avatar} alt="" /></a>
 					</div>
 				</header>
-				<a href="/house" className="image featured"><img src={nullimg} alt="" /></a>
+				<a href="/house" className="image featured"><img src={city_post} alt="" /></a>
 				<p>Строганов Аникей Фёдорович (1488-1570) — создатель солеваренной промышленности в Сольвычегодске и в Перми, крупнейший русский предприниматель своего времени, государственный деятель.</p>
 				<footer>
 					<ul className="actions">
@@ -176,7 +181,7 @@ function NewMain() {
 								src={avatar} alt="" /></a>
 					</div>
 				</header>
-				<a href="/house" className="image featured"><img src={nullimg} alt="" /></a>
+				<a href="/house" className="image featured"><img src={nullimg_post} alt="" /></a>
 				<p>Граф Павел Сергеевич Строганов (1823—1911) — обер-шенк русского императорского двора, коллекционер, меценат; старший брат Григория Сергеевича Строганова.</p>
 				<footer>
 					<ul className="actions">
@@ -211,7 +216,7 @@ function NewMain() {
 							<time className="published" datetime="2015-10-20">Граф Александр Сергеевич Строганов — крупнейший коллекционер своего времени</time>
 							<a href="#" className="author"><img src={avatar} alt="" /></a>
 						</header>
-						<a href="/family/acollection" className="image"><img src={nullimg} alt="" /></a>
+						<a href="/family/acollection" className="image"><img src={collection_post} alt="" /></a>
 					</article>
 
 					<article className="mini-post">
@@ -220,7 +225,7 @@ function NewMain() {
 							<time className="published" datetime="2015-10-19">Это произошло благодаря первопроходцам и купцам из Новгорода, которые оценили эту местность, находящуюся на пересечении двух водных артерий.</time>
 							<a href="#" className="author"><img src={avatar} alt="" /></a>
 						</header>
-						<a href="#" className="image"><img src={nullimg} alt="" /></a>
+						<a href="#" className="image"><img src={rod_post} alt="" /></a>
 					</article>
 
 					<article className="mini-post">
@@ -229,7 +234,7 @@ function NewMain() {
 							<time className="published" datetime="2015-10-18">Большая территория между Большой Невкой и Черной речкой</time>
 							<a href="#" className="author"><img src={avatar} alt="" /></a>
 						</header>
-						<a href="#" className="image"><img src={nullimg} alt="" /></a>
+						<a href="#" className="image"><img src={town_post} alt="" /></a>
 					</article>
 					<article className="mini-post">
 						<header>
@@ -237,7 +242,7 @@ function NewMain() {
 							<time className="published" datetime="2015-10-17">Наиболее яркое явление в поздней древнерусской иконописи. Ее хронологические рамки определяются второй половиной 16 – первой половиной 17 в.</time>
 							<a href="#" className="author"><img src={avatar} alt="" /></a>
 						</header>
-						<a href="#" className="image"><img src={nullimg} alt="" /></a>
+						<a href="#" className="image"><img src={icon_post} alt="" /></a>
 					</article>
 					<article className="mini-post">
 						<header>
@@ -245,7 +250,7 @@ function NewMain() {
 							<time className="published" datetime="2015-10-17">Архитектурное направение конца 17-начала 18 вв</time>
 							<a href="#" className="author"><img src={avatar} alt="" /></a>
 						</header>
-						<a href="#" className="image"><img src={nullimg} alt="" /></a>
+						<a href="#" className="image"><img src={barokko_post} alt="" /></a>
 					</article>
 					<article className="mini-post">
 						<header>
@@ -253,7 +258,7 @@ function NewMain() {
 							<time className="published" datetime="2015-10-17">Вышивание было широко распространено на Руси — драгоценные ткани у нас начали производить только с XVIII века.</time>
 							<a href="#" className="author"><img src={avatar} alt="" /></a>
 						</header>
-						<a href="#" className="image"><img src={nullimg} alt="" /></a>
+						<a href="#" className="image"><img src={shee_post} alt="" /></a>
 					</article>
 					<article className="mini-post">
 						<header>
@@ -261,7 +266,7 @@ function NewMain() {
 							<time className="published" datetime="2015-10-17">Село Кариан-Знаменское расположено в 35 верстах от Тамбова, в селе Знаменское.</time>
 							<a href="#" className="author"><img src={avatar} alt="" /></a>
 						</header>
-						<a href="#" className="image"><img src={nullimg} alt="" /></a>
+						<a href="#" className="image"><img src={tamb_post} alt="" /></a>
 					</article>
 				</div>
 			</section>
