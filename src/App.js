@@ -12,6 +12,7 @@ import { CollectionAlexanderApp } from './pages/Alexander/collection'
 
 function App() {
     return (
+        
             <Routes>
                 <Route path="/family" element={<FamilyApp />} />
                 <Route path="/house" element={<HouseApp />}/>

@@ -1,5 +1,6 @@
 import '../styles/newmain.css';
-import avatar from '../assets/logo.jpg';
+// import avatar from '../assets/logo.jpg';
+import avatar from '../assets/logo-blue.png'
 import logoblack from '../assets/logo-black.png';
 import p1 from '../assets/posts/1.png';
 import p2 from '../assets/posts/2.png';
@@ -17,6 +18,7 @@ import vk from '../assets/posts/icons8-vk-в-круге-48.png';
 import gmail from '../assets/posts/icons8-gmail-48.png';
 import '../styles/allObjects.css';
 import nullimg_post from '../assets/posts/null_post.png';
+import {Helmet} from "react-helmet";
 
 
 
@@ -25,7 +27,11 @@ function NewMain() {
 	document.title = 'Павел Сергеевич Строганов — Главная';
     return (
         <>
-		
+		<Helmet>
+                <meta charSet="utf-8" />
+                <title>Университет ИТМО — Строгановы</title>
+                <link rel="canonical" href="Исторические статьи о семье Строгановы" />
+            </Helmet>
         <div id="wrapper">
 			
 		<header id="header">
