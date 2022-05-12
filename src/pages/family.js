@@ -9,9 +9,10 @@ import kochubej from '../assets/img-pages/kochubej.jpg'
 import sgd_father from '../assets/img-pages/SGD.jpg'
 import ssg_son from '../assets/img-pages/SSG.jpg'
 import granovski from '../assets/img-pages/granovskii.jpg'
+import '../styles/anchor.css';
+
 import React, { useState, useEffect } from 'react';
 import { Anchor } from 'antd';
-import '../styles/anchor.css';
 import { useNavigate } from 'react-router-dom'
 
 

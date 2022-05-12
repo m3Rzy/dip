@@ -796,3 +796,8 @@ header p {
 .button-search-form:hover {
 	color: #ab8c43;
  }
+
+ .successful-form {
+	 width: 500px;
+	 height: 400px;
+ }
