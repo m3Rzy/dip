@@ -9,10 +9,9 @@ import kochubej from '../assets/img-pages/kochubej.jpg'
 import sgd_father from '../assets/img-pages/SGD.jpg'
 import ssg_son from '../assets/img-pages/SSG.jpg'
 import granovski from '../assets/img-pages/granovskii.jpg'
-import '../styles/anchor.css';
-
 import React, { useState, useEffect } from 'react';
 import { Anchor } from 'antd';
+import '../styles/anchor.css';
 import { useNavigate } from 'react-router-dom'
 
 
@@ -20,6 +19,7 @@ const { Link } = Anchor;
 function FamilyApp() {
     document.title = 'Род Строгановых';
     const history = useNavigate();
+    
     const [targetOffset, setTargetOffset] = useState(undefined);
     const [scrollTop, setScrollTop] = useState(0);
     const [vizy, onOpacity] = useState(0)
@@ -75,6 +75,7 @@ function FamilyApp() {
                         <div className="line"></div>
                     </div>
                 </div>
+                
                     <section className='anchor-mine' style={{opacity: `${vizy}%`}}>
                         <Anchor targetOffset={targetOffset} affix={true}>
                             <Link href="#supertitle" title="Заголовок"/>
@@ -88,7 +89,7 @@ function FamilyApp() {
                             
                         </Anchor>
                     </section>
-                </div>
+            </div>
             
             <div className="container-fluid2">
                 <div className="listheader-family">
@@ -211,15 +212,15 @@ function FamilyApp() {
 
 
                     {/* ФУТЕР */}
-
-                    <div className="next-article" style={{marginTop: 75}}>
+                    {/* <div className="next-article" style={{marginTop: 75}}>
                         <p className="next-h1">Дом П. С. Строганова на Сергиевской улице</p>
                         <p className="next-h2">Дворец Строгановых, построенный по проекту архитектора Франческо Бартоломео Растрелли в 1753—1754 годах, один из образцов уникального растреллиевского «барочно-рокайльного стиля».</p>
                         <a href="/house"><button type="button" className="block">Читать</button></a>
-                    </div>
+                    </div> */}
+
                 </div>
             </div>
-            <div className="container-fluid3">
+            {/* <div className="container-fluid3">
                 <div className="footer-pooper">
                     <img src={sitmo} width="200px" alt="" className="logo_img_footer" />
                     <p className="excep">Нашли ошибку в тексте? Выделите ее и нажмите Ctrl + Enter</p>
@@ -228,8 +229,8 @@ function FamilyApp() {
                     <div className='footer-pravo'>Информация о политике конфиденциальной информации.. 
 № ФС00‑00000 выдано Роскомнадзором 0 никогда 0000 г.</div>
                 </div>
-            </div>
-    </div>
+            </div>  */}
+    </div> //App
     );
 
     

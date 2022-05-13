@@ -1,7 +1,3 @@
-import {
-	VKIcon,
-	VKShareButton,
-  } from "react-share";
 import '../styles/newmain.css';
 import avatar from '../assets/logo-blue.png'
 import logoblack from '../assets/logo-black.png';
@@ -42,7 +38,6 @@ import { useState } from 'react'
 
 function NewMain() {
 	document.title = 'Павел Сергеевич Строганов — Главная';
-	const shareurl = "https://vk.com/hoiboi";
 	// поля для обратной связи
 	const [sender_name, set_sender_name] = useState('');
 	const [sender_email, set_sender_email] = useState('');
@@ -64,10 +59,8 @@ function NewMain() {
 			{sender_name, sender_email, message},
 			'_EYcCDdury5UIBogr'
 		)
-		
 		.then((response) => {
 			console.log('Сообщение было успешно отправлено!', response.status, response.text)
-			
 		})
 		.catch((err) => {
 			console.log('Ошибка при отправлении сообщения', err)
@@ -109,12 +102,7 @@ function NewMain() {
 				</div>
 				<div className="modal-body">    
 							<ul className="icons">
-								{/* <li><a href="https://vk.com/itmoru" className="fa-instagram"><img src={vk} width="40px"/></a></li> */}
-								{/* <li>
-									<VKShareButton url={shareurl}>
-										<VKIcon size={40}></VKIcon>
-									</VKShareButton>
-								</li> */}
+								<li><a href="https://vk.com/itmoru" className="fa-instagram"><img src={vk} width="40px"/></a></li>
 								<li></li>
 								<li></li>
 								<li><a href="">+7 (812) 480-04-80</a></li>
@@ -283,7 +271,7 @@ function NewMain() {
 
 			<ul className="actions pagination">
 				{/* <li><a href="" className="disabled button big previous">Предыдущая страница</a></li> */}
-				{/* <li><a href="#" className="button big next">Дальше</a></li> */}
+				<li><a href="#" className="button big next">Дальше</a></li>
 			</ul>
 			
 		</div>

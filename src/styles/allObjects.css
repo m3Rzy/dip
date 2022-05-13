@@ -7,6 +7,15 @@
     margin-bottom: -20px;
 }
 
+.container-fluid-futurehouse {
+    margin: 0;
+    background-image: url("../assets/headers/futurehouse.png");
+    background-size: cover;
+    width: 100%;
+    height: 962px;
+    background-repeat: no-repeat;
+}
+
 .subject3 {
     display: flex;
     margin-top: -250px;
