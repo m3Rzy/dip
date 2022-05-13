@@ -212,15 +212,15 @@ function FamilyApp() {
 
 
                     {/* ФУТЕР */}
-                    {/* <div className="next-article" style={{marginTop: 75}}>
-                        <p className="next-h1">Дом П. С. Строганова на Сергиевской улице</p>
-                        <p className="next-h2">Дворец Строгановых, построенный по проекту архитектора Франческо Бартоломео Растрелли в 1753—1754 годах, один из образцов уникального растреллиевского «барочно-рокайльного стиля».</p>
-                        <a href="/house"><button type="button" className="block">Читать</button></a>
-                    </div> */}
+                    <div className="next-article" style={{marginTop: 75}}>
+                        <p className="next-h1">Современная жизнь дома Строгановых</p>
+                        <p className="next-h2">Дом Строгановых в наше время. Центр социальных и гуманитарных наук (ЦСигн)</p>
+                        <a href="/house/futurehouse"><button type="button" className="block">Читать</button></a>
+                    </div>
 
                 </div>
             </div>
-            {/* <div className="container-fluid3">
+            <div className="container-fluid3">
                 <div className="footer-pooper">
                     <img src={sitmo} width="200px" alt="" className="logo_img_footer" />
                     <p className="excep">Нашли ошибку в тексте? Выделите ее и нажмите Ctrl + Enter</p>
@@ -229,7 +229,8 @@ function FamilyApp() {
                     <div className='footer-pravo'>Информация о политике конфиденциальной информации.. 
 № ФС00‑00000 выдано Роскомнадзором 0 никогда 0000 г.</div>
                 </div>
-            </div>  */}
+            </div> 
+
     </div> //App
     );
 
