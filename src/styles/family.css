@@ -287,11 +287,10 @@ p {
     display: block;
     border: #F4F7E7 solid 0.1px;
     opacity: 20%;
-    width: 1792px;
+    width: 100%;
     float: center;
-    margin-top: 34px;
-    margin-left: 64px;
-    margin-right: 64px;
+
+
 }
 
 .rules {

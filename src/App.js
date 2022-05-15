@@ -9,7 +9,7 @@ import { NewMain } from './pages/newmain';
 import { CollectionAlexanderApp } from './pages/collection'
 import { FutureHouseApp } from './pages/future'
 import { SergeiGSApp } from './pages/sgs'
-
+import { Footer } from './pages/components/footer'
 
 
 function App() {
@@ -23,6 +23,7 @@ function App() {
                 <Route path="/family/acollection" element={<CollectionAlexanderApp />} />
                 <Route path="/house/futurehouse" element={<FutureHouseApp />} />
                 <Route path="/sgs" element={<SergeiGSApp />} />
+                <Route path="/footer" element={<Footer />} />
             </Routes>
     );
 }
