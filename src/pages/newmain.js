@@ -60,8 +60,9 @@ function NewMain() {
 			{sender_name, sender_email, message},
 			'_EYcCDdury5UIBogr'
 		)
-		.then((response) => {
+		.then((response, {resetForm}) => {
 			console.log('Сообщение было успешно отправлено!', response.status, response.text)
+			resetForm(response = '')
 		})
 		.catch((err) => {
 			console.log('Ошибка при отправлении сообщения', err)

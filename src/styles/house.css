@@ -1,15 +1,3 @@
-.container-fluid-house {
-    background-image: url("../assets/castle.png");
-    background-size: cover;
-    width: 100%;
-    height: 962px;
-    background-repeat: no-repeat;
-}
-
-/* body {
-    height: 2300px;
-} */
-
 .custom-anchor {
     background-color: #494949;
     width: 140px;
@@ -42,14 +30,6 @@
     text-align: left;
     max-width: fit-content;
     font-family: "Spectral-MediumItalic";
-}
-
-.hyperurl {
-    font-size: 16px;
-    color: #1890ff;
-    cursor: pointer;
-    text-decoration: underline;
-    font-weight: 800;
 }
 
 .title-veka {

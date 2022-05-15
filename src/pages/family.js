@@ -1,17 +1,17 @@
 import '../styles/family.css';
 import '../styles/scroll.css';
 import '../styles/allObjects.css'
+import '../fonts.css';
+import { Anchor } from 'antd';
+import '../styles/anchor.css';
 import logo2 from '../assets/logo-whiye.png';
 import picture2 from '../assets/next.svg';
 import sitmo from '../assets/logo-full.png';
-import '../fonts.css';
 import kochubej from '../assets/img-pages/kochubej.jpg'
 import sgd_father from '../assets/img-pages/SGD.jpg'
 import ssg_son from '../assets/img-pages/SSG.jpg'
 import granovski from '../assets/img-pages/granovskii.jpg'
 import React, { useState, useEffect } from 'react';
-import { Anchor } from 'antd';
-import '../styles/anchor.css';
 import { useNavigate } from 'react-router-dom'
 
 

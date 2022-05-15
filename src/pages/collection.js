@@ -2,8 +2,8 @@ import { useNavigate } from 'react-router-dom'
 import React, { useState, useEffect } from 'react';
 import logo2 from '../assets/logo-whiye.png';
 import picture2 from '../assets/next.svg';
-import '../styles/collection.css'
 import sas from '../assets/img-pages/SAS.jpg'
+import '../styles/collection.css'
 
 import { Anchor } from 'antd';
 const { Link } = Anchor;
