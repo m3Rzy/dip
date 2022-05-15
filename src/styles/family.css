@@ -141,7 +141,7 @@
     text-decoration: none;
   }
   
-  /*btn_background*/
+  /* btn_background
   .effect04 {
     --uismLinkDisplay: var(--smLinkDisplay, inline-flex);
     display: var(--uismLinkDisplay);
@@ -188,7 +188,7 @@
     letter-spacing: 0.05em;
     -webkit-transform: translateY(0) scale(1,1);
             transform: translateY(0) scale(1,1);
-  }
+  } */
 
 .main-p {
     text-indent: 70px;
@@ -257,14 +257,6 @@ p {
     color: #F4F7E7;
     text-decoration: none!important;
     /* border: #fff 1px solid; */
-}
-
-.footer-pooper {
-    margin-top: 150px;
-    display: block;
-    height: 250px;
-    width: 100%;
-    background-color: #1B1B1B;
 }
 
 .logo_img_footer {

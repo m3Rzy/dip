@@ -19,6 +19,14 @@
     display: inline;
 }
 
+.footer-pooper {
+    margin-top: 150px;
+    display: block;
+    height: 250px;
+    width: 100%;
+    background-color: #1B1B1B;
+}
+
 .container-fluid-futurehouse {
     margin: 0;
     background-image: url("../assets/headers/futurehouse.png");

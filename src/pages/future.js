@@ -6,6 +6,7 @@ import picture2 from '../assets/next.svg';
 import '../styles/collection.css'
 import mapfuture from '../assets/img-pages/mapfuture.jpg'
 import { Anchor } from 'antd';
+import { Footer } from './components/footer'
 const { Link } = Anchor;
 
 
@@ -146,16 +147,8 @@ function FutureHouseApp() {
 
                 </div>
             </div>
-
                 <div className="container-fluid3">
-                    <div className="footer-pooper">
-                        <img src={sitmo} width="200px" alt="" className="logo_img_footer" />
-                        <p className="excep">Нашли ошибку в тексте? Выделите ее и нажмите Ctrl + Enter</p>
-                        <div className="line-footer"></div>
-                        <p className="rules">© 2022 ITMO Unversity</p>
-                        <div className='footer-pravo'>Информация о политике конфиденциальной информации.. 
-    № ФС00‑00000 выдано Роскомнадзором 0 никогда 0000 г.</div>
-                    </div>
+                    <Footer />
                 </div> 
 
         </div>

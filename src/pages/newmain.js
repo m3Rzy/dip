@@ -21,20 +21,7 @@ import nullimg_post from '../assets/posts/null_post.png';
 import {Helmet} from "react-helmet";
 import emailjs, { send } from 'emailjs-com';
 import { useState } from 'react'
-
-
-// function sendEmail(e) {
-	
-
-// 	e.preventDefault();
-// 	emailjs.sendForm('service_z2k86wh', 'template_olsgytm', '_EYcCDdury5UIBogr')
-//     .then(function(response) {
-//        console.log('SUCCESS!', response.status, response.text);
-//     }, function(error) {
-//        console.log('FAILED...', error);
-//     });
-// 	e.target.reset();
-// }
+import { Footer } from './components/footer' 
 
 
 function NewMain() {
@@ -274,9 +261,9 @@ function NewMain() {
 			{/* <ul className="actions pagination">
 				<li><a href="#" className="button big next">Дальше</a></li>
 			</ul> */}
-			
+		
 		</div>
-
+			
 		<section id="sidebar">
 			<section id="intro">
 				{/* <a href="#" className="logo"><img src={logo} alt="" width="400px"/></a> */}
@@ -369,6 +356,7 @@ function NewMain() {
 			</section>
 		</section>
 	</div>
+	<Footer />
         </>
     );
 }

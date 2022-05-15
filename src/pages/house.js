@@ -15,6 +15,7 @@ import React, { useState, useEffect } from 'react';
 import { Anchor } from 'antd';
 import newpic from '../assets/headers/house-strg.png'
 import { useNavigate } from 'react-router-dom'
+import { Footer } from './components/footer'
 import '../styles/anchor.css';
 const { Link } = Anchor;
 
@@ -231,6 +232,7 @@ function HouseApp() {
                         <a href="/sgs"><button type="button" className="block">Читать</button></a>
                     </div>
                 </div>
+                <Footer />
             </div>
         </div>
     )
