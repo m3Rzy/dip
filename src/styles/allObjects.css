@@ -16,6 +16,10 @@
     background-repeat: no-repeat;
 }
 
+.icons-li {
+    margin-right: 10px;
+}
+
 .subject3 {
     display: flex;
     margin-top: -250px;

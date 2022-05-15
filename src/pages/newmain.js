@@ -85,7 +85,7 @@ function NewMain() {
 			<nav className="links">
 				
 				<ul>
-					<li className='icons-li'	style={{marginRight: 50}}><a href="/">ПОДЕЛИТЬСЯ</a></li>
+					{/* <li className='icons-li'	style={{marginRight: 50}}><a href="/">ПОДЕЛИТЬСЯ</a></li> */}
 					<li className='icons-li'	style={{marginRight: 50}}><a href="#openModal-send">ОБРАТНАЯ СВЯЗЬ</a></li>
 					<li className='icons-li'	style={{marginRight: 50}}><a href="/search">ВСЕ СТАТЬИ</a></li>
 					<li className='icons-li'	style={{marginRight: 50}}><a href="#openModal">КОНТАКТЫ</a></li>
@@ -126,7 +126,7 @@ function NewMain() {
 					<div className="modal-body">    
 					<form class="login-form" onSubmit={sendEmail}>
 					<div class="form-input-material">
-							<label>Ваша имя</label>
+							<label>Ваше имя</label>
 							<input type="text" name="sender_name" placeholder="Имя" value={sender_name} onChange={handleName} class="form_name" required />
 						</div>
 						<div class="form-input-material" style={{marginTop: 25}}>
@@ -359,13 +359,13 @@ function NewMain() {
 			</section>
 
 			<section id="footer">
-				<ul className="icons">
+				<ul className="icons-vertical">
 					<li className='icons-li'><a href="https://vk.com/itmoru" className="fa-instagram"><img src={vk} width="40px"/></a></li>
 					<li className='icons-li'></li>
 					<li className='icons-li'></li>
-					<li className='icons-li'><a href="abit@itmo.ru" className="fa-envelope"><img src={gmail} width="40px"/></a></li>
+					<li className='icons-li'><a href="#openModal-send" className="fa-envelope"><img src={gmail} width="40px"/></a></li>
 				</ul>
-				<p className="copyright">&copy; <a href="#">Университет ИТМО</a>.</p>
+				<p className="copyright" style={{marginTop: 30}}>&copy; <a href="#">Университет ИТМО</a>.</p>
 			</section>
 		</section>
 	</div>
