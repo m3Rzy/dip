@@ -95,9 +95,9 @@ function FutureHouseApp() {
                         </p>
                     </div>
                     <div className="textarea-normal" id='futurehouse-ul'>
-                        <p style={{fontSize: 22}}>Основными задачами Центра социальных и гуманитарных наук являются:</p>
+                        <p style={{fontSize: 20}}>Основными задачами Центра социальных и гуманитарных наук являются:</p>
                     </div>
-                    <div className="textarea-normal" style={{marginTop: -20}}>
+                    <div className="textarea-normal" style={{marginTop: -40}}>
                     <ul className='futurehouse-li'>
                             <li>
                             Разработка и реализация рабочих программ дисциплин базовой и вариативной (элективной) части образовательной программы;

@@ -87,8 +87,8 @@ function NewMain() {
 				
 				<ul>
 					{/* <li className='icons-li'	style={{marginRight: 50}}><a href="/">ПОДЕЛИТЬСЯ</a></li> */}
-					<li className='icons-li'	style={{marginRight: 50}}><a href="#openModal-send">ОБРАТНАЯ СВЯЗЬ</a></li>
 					<li className='icons-li'	style={{marginRight: 50}}><a href="/search">ВСЕ СТАТЬИ</a></li>
+					<li className='icons-li'	style={{marginRight: 50}}><a href="#openModal-send">ОБРАТНАЯ СВЯЗЬ</a></li>
 					<li className='icons-li'	style={{marginRight: 50}}><a href="#openModal">КОНТАКТЫ</a></li>
 					{/* <li><a href="/search">ПОИСК</a></li> */}
 				</ul>
@@ -100,17 +100,17 @@ function NewMain() {
 				<div className="modal-content">
 				<div className="modal-header">
 					<h3 className="modal-title">Контакты</h3>
-					<a href="#close" title="Close" className="close">×</a>
+					<a href="#close" title="Закрыть окно" className="close">×</a>
 				</div>
 				<div className="modal-body">    
 							<ul className="icons">
 								<li><a href="https://vk.com/itmoru" className="fa-instagram"><img src={vk} width="40px"/></a></li>
 								<li></li>
 								<li></li>
-								<li><a href="">+7 (812) 480-04-80</a></li>
+								<li><p>+7 (812) 480-04-80</p></li>
 								<li></li>
 								<li></li>
-								<li><a href="abit@itmo.ru" className="fa-envelope"><img src={gmail} width="40px"/></a></li>
+								<li><a href="#openModal-send" className="fa-envelope"><img src={gmail} width="40px"/></a></li>
 							</ul>
 				</div>
 				</div>
@@ -122,7 +122,7 @@ function NewMain() {
 				<div className="modal-content">
 					<div className="modal-header">
 						<h3 className="modal-title">Обратная связь</h3>
-						<a href="#close" title="Close" className="close">×</a>
+						<a href="#close" title="Закрыть" className="close">×</a>
 					</div>
 					<div className="modal-body">    
 					<form class="login-form" onSubmit={sendEmail}>
@@ -136,7 +136,7 @@ function NewMain() {
 						</div>
 						<div class="form-input-material" style={{marginTop: 25}}>
 							<label>Сообщение</label>
-							<textarea name="message" style={{width: 450, height: 250, fontSize: 16, borderRadius: 8}} value={message} onChange={handleMessage} required placeholder='Ваш текст...'></textarea>
+							<textarea name="message" style={{width: 450, height: 250, fontSize: 16, borderRadius: 8, paddingLeft: 10, paddingRight: 10}} value={message} onChange={handleMessage} required placeholder='Ваш текст...'></textarea>
 						</div>
 						<button type="submit" class="button-search-form" style={{marginTop: 30, height: 50}}>Отправить</button>
 						{/* <button href="#close" className="button-search-form" style={{width: 100, marginLeft: 100}}>Ок</button> */}
@@ -153,7 +153,7 @@ function NewMain() {
 						<p>Служение России. Великие предприниматели и меценаты Строгановы</p>
 					</div>
 					<div className="meta">
-						<a href="#" className="author"><span className="name">Университет ИТМО</span><img
+						<a className="author"><span className="name">Университет ИТМО</span><img
 								src={avatar} alt="" /></a>
 					</div>
 				</header>
@@ -174,7 +174,7 @@ function NewMain() {
 						<p>Общая информация</p>
 					</div>
 					<div className="meta">
-						<a href="#" className="author"><span className="name">Университет ИТМО</span><img
+						<a className="author"><span className="name">Университет ИТМО</span><img
 								src={avatar} alt="" /></a>
 					</div>
 				</header>
@@ -196,7 +196,7 @@ function NewMain() {
 					</div>
 					<div className="meta">
 					
-						<a href="#" className="author"><span className="name">Университет ИТМО</span><img
+						<a className="author"><span className="name">Университет ИТМО</span><img
 								src={avatar} alt="" /></a>
 					</div>
 				</header>
@@ -217,7 +217,7 @@ function NewMain() {
 					</div>
 					<div className="meta">
 					
-						<a href="#" className="author"><span className="name">Университет ИТМО</span><img
+						<a className="author"><span className="name">Университет ИТМО</span><img
 								src={avatar} alt="" /></a>
 					</div>
 				</header>
@@ -237,7 +237,7 @@ function NewMain() {
 					</div>
 					<div className="meta">
 					
-						<a href="#" className="author"><span className="name">Университет ИТМО</span><img
+						<a className="author"><span className="name">Университет ИТМО</span><img
 								src={avatar} alt="" /></a>
 					</div>
 				</header>
@@ -257,7 +257,7 @@ function NewMain() {
 					</div>
 					<div className="meta">
 					
-						<a href="#" className="author"><span className="name">Университет ИТМО</span><img
+						<a className="author"><span className="name">Университет ИТМО</span><img
 								src={avatar} alt="" /></a>
 					</div>
 				</header>
@@ -271,10 +271,9 @@ function NewMain() {
 			</article>
 
 
-			<ul className="actions pagination">
-				{/* <li><a href="" className="disabled button big previous">Предыдущая страница</a></li> */}
+			{/* <ul className="actions pagination">
 				<li><a href="#" className="button big next">Дальше</a></li>
-			</ul>
+			</ul> */}
 			
 		</div>
 
@@ -294,7 +293,7 @@ function NewMain() {
 						<header>
 							<h3><a href="/family/acollection">Коллекции графа А. С. Строганова</a></h3>
 							<time className="published" datetime="2015-10-20">Граф Александр Сергеевич Строганов — крупнейший коллекционер своего времени</time>
-							<a href="#" className="author"><img src={avatar} alt="" /></a>
+							<a className="author"><img src={avatar} alt="" /></a>
 						</header>
 						<a href="/family/acollection" className="image"><img src={collection_post} alt="" /></a>
 					</article>
@@ -303,7 +302,7 @@ function NewMain() {
 						<header>
 							<h3><a href="#">Самые яркие дела Строгановых</a></h3>
 							<time className="published" datetime="2015-10-19">Это произошло благодаря первопроходцам и купцам из Новгорода, которые оценили эту местность, находящуюся на пересечении двух водных артерий.</time>
-							<a href="#" className="author"><img src={avatar} alt="" /></a>
+							<a className="author"><img src={avatar} alt="" /></a>
 						</header>
 						<a href="#" className="image"><img src={rod_post} alt="" /></a>
 					</article>
@@ -312,7 +311,7 @@ function NewMain() {
 						<header>
 							<h3><a href="#">Дача Строгановых</a></h3>
 							<time className="published" datetime="2015-10-18">Большая территория между Большой Невкой и Черной речкой</time>
-							<a href="#" className="author"><img src={avatar} alt="" /></a>
+							<a className="author"><img src={avatar} alt="" /></a>
 						</header>
 						<a href="#" className="image"><img src={town_post} alt="" /></a>
 					</article>
@@ -320,7 +319,7 @@ function NewMain() {
 						<header>
 							<h3><a href="#">СТРОГАНОВСКАЯ ИКОНОПИСНАЯ ШКОЛА</a></h3>
 							<time className="published" datetime="2015-10-17">Наиболее яркое явление в поздней древнерусской иконописи. Ее хронологические рамки определяются второй половиной 16 – первой половиной 17 в.</time>
-							<a href="#" className="author"><img src={avatar} alt="" /></a>
+							<a className="author"><img src={avatar} alt="" /></a>
 						</header>
 						<a href="#" className="image"><img src={icon_post} alt="" /></a>
 					</article>
@@ -328,7 +327,7 @@ function NewMain() {
 						<header>
 							<h3><a href="#">Cтрогановское барокко</a></h3>
 							<time className="published" datetime="2015-10-17">Архитектурное направение конца 17-начала 18 вв</time>
-							<a href="#" className="author"><img src={avatar} alt="" /></a>
+							<a className="author"><img src={avatar} alt="" /></a>
 						</header>
 						<a href="#" className="image"><img src={barokko_post} alt="" /></a>
 					</article>
@@ -336,7 +335,7 @@ function NewMain() {
 						<header>
 							<h3><a href="#">Строгановское шитье</a></h3>
 							<time className="published" datetime="2015-10-17">Вышивание было широко распространено на Руси — драгоценные ткани у нас начали производить только с XVIII века.</time>
-							<a href="#" className="author"><img src={avatar} alt="" /></a>
+							<a className="author"><img src={avatar} alt="" /></a>
 						</header>
 						<a href="#" className="image"><img src={shee_post} alt="" /></a>
 					</article>
@@ -344,7 +343,7 @@ function NewMain() {
 						<header>
 							<h3><a href="#">Тамбовское имение</a></h3>
 							<time className="published" datetime="2015-10-17">Село Кариан-Знаменское расположено в 35 верстах от Тамбова, в селе Знаменское.</time>
-							<a href="#" className="author"><img src={avatar} alt="" /></a>
+							<a className="author"><img src={avatar} alt="" /></a>
 						</header>
 						<a href="#" className="image"><img src={tamb_post} alt="" /></a>
 					</article>

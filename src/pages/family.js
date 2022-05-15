@@ -4,6 +4,11 @@ import '../styles/allObjects.css'
 import '../fonts.css';
 import { Anchor } from 'antd';
 import '../styles/anchor.css';
+import telephone from '../assets/tp.png'
+import gps from '../assets/gps.png'
+import email from '../assets/email.png'
+import vk from '../assets/posts/icons8-vk-в-круге-48.png';
+import gmail from '../assets/posts/icons8-gmail-48.png';
 import logo2 from '../assets/logo-whiye.png';
 import picture2 from '../assets/next.svg';
 import sitmo from '../assets/logo-full.png';
@@ -70,7 +75,7 @@ function FamilyApp() {
                     </div>
                     {/* <button onClick={() => history(-1)}></button>  */}
                     <div className="titles">
-                        <h1 className="title_main">Род Строганова</h1>
+                        <h1 className="title_main">Род Строгановых</h1>
                         <h3 className="title_help">Род русских промышленников и помещиков, из которого происходили крупные землевладельцы и государственные деятели XVI—XX веков.</h3>
                         <div className="line"></div>
                     </div>
@@ -221,15 +226,60 @@ function FamilyApp() {
                 </div>
             </div>
             <div className="container-fluid3">
-                <div className="footer-pooper">
-                    <img src={sitmo} width="200px" alt="" className="logo_img_footer" />
-                    <p className="excep">Нашли ошибку в тексте? Выделите ее и нажмите Ctrl + Enter</p>
-                    <div className="line-footer"></div>
-                    <p className="rules">© 2022 ITMO Unversity</p>
-                    <div className='footer-pravo'>Информация о политике конфиденциальной информации.. 
-№ ФС00‑00000 выдано Роскомнадзором 0 никогда 0000 г.</div>
-                </div>
-            </div> 
+                {/* <div className="footer-pooper">
+                    <ul className='footer-ul'>
+                        <li className='footer-li'>
+                            <img src={sitmo} width="200px" alt="" className="logo_img_footer" />
+                            <p className="excep">Нашли ошибку в тексте? Выделите ее и нажмите Ctrl + Enter</p>
+                            <div className="line-footer"></div>
+                            <p className="rules">© 2022 ITMO Unversity</p>
+                            <div className='footer-pravo'>Информация о политике конфиденциальной информации.. 
+        № ФС00‑00000 выдано Роскомнадзором 0 никогда 0000 г.</div>
+                        </li>
+                        <li className='footer-li' style={{marginLeft: 400}}>
+                            <img src={sitmo} width="200px" alt="" className="logo_img_footer" />
+                        </li>
+                    </ul>
+                </div> */}
+            <div className="footer-pooper">
+                <footer class="footer-distributed">
+                    <div class="footer-left">
+                        <img src={sitmo} width="200px" alt="" className="logo_img_footer" style={{marginTop: -70, marginLeft: 40}}/>
+                        <p class="footer-links" style={{marginTop: -20}}>
+                            <a href="/" class="link-1" style={{marginLeft: 20}}>Главная</a>
+                            <a href="/" style={{marginLeft: 20}}>Обратная связь</a>
+                            <a href="/" style={{marginLeft: 20}}>Контакты</a>
+                        </p>
+                        <p class="footer-company-name" style={{marginLeft: 20}}>Университет ИТМО ©</p>
+                    </div>
+                    <div class="footer-center">
+                        <div>
+                        <i><img src={gps} width="22px" className='footer-i'/></i> 
+                            <p><span>Кронверский проспект, д. 49</span>г. Санкт-Петербург, Российская Федерация</p>
+                        </div>
+                        <div style={{marginTop: 20}}>
+                        <i><img src={telephone} width="20px" className='footer-i'/></i> 
+                            <p>+7 (812) 480-04-80</p>
+                        </div>
+                        <div style={{marginTop: 20}}>
+                        <i><img src={email} width="20px" className='footer-i'/></i> 
+                            <p><a href="#">abit@itmo.ru</a></p>
+                        </div>
+                    </div>
+                    <div class="footer-right">
+                        <p class="footer-company-about">
+                            <span>О сайте</span>
+                            Сайт представляет собой набор исторических и информационных фактов для ознакомления.
+                        </p>
+                        <div class="footer-icons">
+                            <a href="#"><img src={vk} width="40px"/></a>
+                            <a href="#"><img src={gmail} width="40px" style={{marginLeft: 20}}/></a>
+                        </div>
+                    </div>
+
+                </footer>
+            </div>
+        </div> 
 
     </div> //App
     );
