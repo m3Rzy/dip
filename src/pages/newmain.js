@@ -12,6 +12,7 @@ import shee_post from '../assets/img-pages/shee.png'
 import tamb_post from '../assets/img-pages/tamb.png'
 import sgs_post from '../assets/posts/sgs.png'
 import city_post from '../assets/posts/city.png'
+import house_strg_post from '../assets/img-pages/house_strg_post.png'
 import p5 from '../assets/posts/5.png';
 import vk from '../assets/posts/icons8-vk-в-круге-48.png';
 import gmail from '../assets/posts/icons8-gmail-48.png';
@@ -189,8 +190,8 @@ function NewMain() {
 			<article className="post">
 				<header>
 					<div className="title">
-						<h4><a href="/house">Павел Сергеевич Строганов и его дом</a></h4>
-						<p>Подробная биография</p>
+						<h4><a href="/house">Дом рода Строгановых</a></h4>
+						<p>*описание*</p>
 					</div>
 					<div className="meta">
 					
@@ -198,7 +199,7 @@ function NewMain() {
 								src={avatar} alt="" /></a>
 					</div>
 				</header>
-				<a href="/house" className="image featured"><img src={p1} alt="" /></a>
+				<a href="/house" className="image featured"><img src={house_strg_post} alt="" /></a>
 				<p>Обер-шенк русского императорского двора, коллекционер, меценат; представитель славного рода
 					Строгановых</p>
 				<footer>
