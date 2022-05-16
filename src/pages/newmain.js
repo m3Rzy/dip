@@ -287,52 +287,52 @@ function NewMain() {
 
 					<article className="mini-post">
 						<header>
-							<h3><a href="#">Самые яркие дела Строгановых</a></h3>
+							<h3><a href="/deals">Самые яркие дела Строгановых</a></h3>
 							<time className="published" datetime="2015-10-19">Это произошло благодаря первопроходцам и купцам из Новгорода, которые оценили эту местность, находящуюся на пересечении двух водных артерий.</time>
 							<a className="author"><img src={avatar} alt="" /></a>
 						</header>
-						<a href="#" className="image"><img src={rod_post} alt="" /></a>
+						<a href="/deals" className="image"><img src={rod_post} alt="" /></a>
 					</article>
 
 					<article className="mini-post">
 						<header>
-							<h3><a href="#">Дача Строгановых</a></h3>
+							<h3><a href="/town">Дача Строгановых</a></h3>
 							<time className="published" datetime="2015-10-18">Большая территория между Большой Невкой и Черной речкой</time>
 							<a className="author"><img src={avatar} alt="" /></a>
 						</header>
-						<a href="#" className="image"><img src={town_post} alt="" /></a>
+						<a href="/town" className="image"><img src={town_post} alt="" /></a>
 					</article>
 					<article className="mini-post">
 						<header>
-							<h3><a href="#">СТРОГАНОВСКАЯ ИКОНОПИСНАЯ ШКОЛА</a></h3>
+							<h3><a href="/school">СТРОГАНОВСКАЯ ИКОНОПИСНАЯ ШКОЛА</a></h3>
 							<time className="published" datetime="2015-10-17">Наиболее яркое явление в поздней древнерусской иконописи. Ее хронологические рамки определяются второй половиной 16 – первой половиной 17 в.</time>
 							<a className="author"><img src={avatar} alt="" /></a>
 						</header>
-						<a href="#" className="image"><img src={icon_post} alt="" /></a>
+						<a href="/school" className="image"><img src={icon_post} alt="" /></a>
 					</article>
 					<article className="mini-post">
 						<header>
-							<h3><a href="#">Cтрогановское барокко</a></h3>
+							<h3><a href="/barokko">Cтрогановское барокко</a></h3>
 							<time className="published" datetime="2015-10-17">Архитектурное направение конца 17-начала 18 вв</time>
 							<a className="author"><img src={avatar} alt="" /></a>
 						</header>
-						<a href="#" className="image"><img src={barokko_post} alt="" /></a>
+						<a href="/barokko" className="image"><img src={barokko_post} alt="" /></a>
 					</article>
 					<article className="mini-post">
 						<header>
-							<h3><a href="#">Строгановское шитье</a></h3>
+							<h3><a href="/sewing">Строгановское шитье</a></h3>
 							<time className="published" datetime="2015-10-17">Вышивание было широко распространено на Руси — драгоценные ткани у нас начали производить только с XVIII века.</time>
 							<a className="author"><img src={avatar} alt="" /></a>
 						</header>
-						<a href="#" className="image"><img src={shee_post} alt="" /></a>
+						<a href="/sewing" className="image"><img src={shee_post} alt="" /></a>
 					</article>
 					<article className="mini-post">
 						<header>
-							<h3><a href="#">Тамбовское имение</a></h3>
+							<h3><a href="/estate">Тамбовское имение</a></h3>
 							<time className="published" datetime="2015-10-17">Село Кариан-Знаменское расположено в 35 верстах от Тамбова, в селе Знаменское.</time>
 							<a className="author"><img src={avatar} alt="" /></a>
 						</header>
-						<a href="#" className="image"><img src={tamb_post} alt="" /></a>
+						<a href="/estate" className="image"><img src={tamb_post} alt="" /></a>
 					</article>
 				</div>
 			</section>
