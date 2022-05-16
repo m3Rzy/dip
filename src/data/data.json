@@ -10,7 +10,7 @@
         "id": 2,
         "name": "Современная жизнь дома Строгановых",
         "about": "Дом Строгановых в наше время",
-        "url": "/house/futurehouse",
+        "url": "/futurehouse",
         "img": "/search-posts/itmo.png"
     },
     {
@@ -31,7 +31,7 @@
         "id": 5,
         "name": "Коллекция графа А. С. Строганова",
         "about": "А. С. Строганов - крупнеший коллекционер",
-        "url": "/family/acollection",
+        "url": "/collection",
         "img": "/search-posts/collection.png"
     },
     {

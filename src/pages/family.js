@@ -224,7 +224,7 @@ function FamilyApp() {
                     <div className="next-article" style={{marginTop: 75}}>
                         <p className="next-h1">Современная жизнь дома Строгановых</p>
                         <p className="next-h2">Дом Строгановых в наше время. Центр социальных и гуманитарных наук (ЦСигн)</p>
-                        <a href="/house/futurehouse"><button type="button" className="block">Читать</button></a>
+                        <a href="/futurehouse"><button type="button" className="block">Читать</button></a>
                     </div>
 
                 </div>

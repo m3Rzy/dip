@@ -157,7 +157,7 @@ function NewMain() {
 			<article className="post">
 				<header>
 					<div className="title">
-						<h4><a href="/house/futurehouse">Современная жизнь дома</a></h4>
+						<h4><a href="/futurehouse">Современная жизнь дома</a></h4>
 						<p>Общая информация</p>
 					</div>
 					<div className="meta">
@@ -165,12 +165,12 @@ function NewMain() {
 								src={avatar} alt="" /></a>
 					</div>
 				</header>
-				<a href="/house/futurehouse" className="image featured"><img src={p2} alt="" /></a>
+				<a href="/futurehouse" className="image featured"><img src={p2} alt="" /></a>
 				<p>НВ 1952 г. образован радиотехнический техникум, в состав которого вошел Ленинградский электромеханический техникум трамвайно-троллейбусного управления. В 1957 г. он переименован в Ленинградский радиотехнический техникум № 1, в 1966 г. техникум морского приборостроения. Подведомственность: до марта 1953, 1955 - 1957 гг. Министерства судостроительной промышленности СССР, март 1953 - 1955 гг. Министерства транспортного и тяжелого машиностроения СССР, июнь 1957- декабрь 1965 гг. Управления кадров и учебных заведений Ленсовнархоза, с 28 декабря 1965 г. Министерства судостроительной промышленности СССР.
 				</p>
 				<footer>
 					<ul className="actions">
-						<li><a href="/house/futurehouse" className="button big">Читать подробнее</a></li>
+						<li><a href="/futurehouse" className="button big">Читать подробнее</a></li>
 					</ul>
 				</footer>
 			</article>
@@ -278,11 +278,11 @@ function NewMain() {
 
 					<article className="mini-post">
 						<header>
-							<h3><a href="/family/acollection">Коллекции графа А. С. Строганова</a></h3>
+							<h3><a href="/collection">Коллекции графа А. С. Строганова</a></h3>
 							<time className="published" datetime="2015-10-20">Граф Александр Сергеевич Строганов — крупнейший коллекционер своего времени</time>
 							<a className="author"><img src={avatar} alt="" /></a>
 						</header>
-						<a href="/family/acollection" className="image"><img src={collection_post} alt="" /></a>
+						<a href="/collection" className="image"><img src={collection_post} alt="" /></a>
 					</article>
 
 					<article className="mini-post">

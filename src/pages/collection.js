@@ -67,7 +67,6 @@ function CollectionAlexanderApp() {
                         <Anchor targetOffset={targetOffset} affix={true}>
                             <Link href="#supertitle" title="Заголовок"/>
                             <Link href="#part1" title="А. С. Строганов - крупнеший коллекционер" /> 
-                                <Link href="#ssg" title="Граф Александр Сергеевич Строганов"></Link>
                         </Anchor>
                     </section>
             </div>
@@ -199,7 +198,7 @@ function CollectionAlexanderApp() {
                     <div className="next-article" style={{marginTop: 75}}>
                         <p className="next-h1">Самые яркие дела Строгановых</p>
                         <p className="next-h2">Это произошло благодаря первопроходцам и купцам из Новгорода, которые оценили эту местность, находящуюся на пересечении двух водных артерий.</p>
-                        <a href="/house"><button type="button" className="block">Читать</button></a>
+                        <a href="/deals"><button type="button" className="block">Читать</button></a>
                     </div>
                 </div>
                 <Footer />

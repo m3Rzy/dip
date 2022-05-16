@@ -225,7 +225,7 @@ function SergeiGSApp() {
                     <div className="next-article" style={{marginTop: 75}}>
                         <p className="next-h1">Коллекции графа А. С. Строганова</p>
                         <p className="next-h2">Граф Александр Сергеевич Строганов — крупнейший коллекционер своего времени</p>
-                        <a href="/house"><button type="button" className="block">Читать</button></a>
+                        <a href="/collection"><button type="button" className="block">Читать</button></a>
                     </div>
                 </div>
             </div>

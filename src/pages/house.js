@@ -71,7 +71,7 @@ function HouseApp() {
                     {/* <button onClick={() => history(-1)}></button>  */}
                     <div className="titles">
                         <h1 className="title_main">Дом Павла Сергеевича Строганова</h1>
-                        <h3 className="title_help">*описание*</h3>
+                        <h3 className="title_help">Здание на Сергиевской, 11, без сомнения выросло из впечатлений от путешествия графа Павла Сергеевича</h3>
                         <div className="line"></div>
                     </div>
                 </div>

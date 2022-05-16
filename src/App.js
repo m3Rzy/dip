@@ -27,8 +27,8 @@ function App() {
                 <Route path="/" element={<NewMain />}/> // Главная
                 <Route path="/search2" element={<SearchApp />}/> // поиск2
                 <Route path="/search" element={<ListArticles />}/> // поиск1
-                <Route path="/family/acollection" element={<CollectionAlexanderApp />} /> // Коллекции графа А. С. Строганова
-                <Route path="/house/futurehouse" element={<FutureHouseApp />} /> // Современная жизнь дома
+                <Route path="/collection" element={<CollectionAlexanderApp />} /> // Коллекции графа А. С. Строганова
+                <Route path="/futurehouse" element={<FutureHouseApp />} /> // Современная жизнь дома
                 <Route path="/sgs" element={<SergeiGSApp />} /> // Сергей Григорьевич Строганов
                 <Route path="/footer" element={<Footer />} /> // Футер для всех эп
                 <Route path="/deals" element={<DealsApp />} /> // Самые яркие дела Строгановых
