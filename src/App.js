@@ -10,20 +10,33 @@ import { CollectionAlexanderApp } from './pages/collection'
 import { FutureHouseApp } from './pages/future'
 import { SergeiGSApp } from './pages/sgs'
 import { Footer } from './pages/components/footer'
+import { DealsApp } from './pages/deals'
+import { TownApp } from './pages/town'
+import { SchoolApp } from './pages/school'
+import { BarokkoApp } from './pages/barokko'
+import { SewingApp } from './pages/sewing'
+import { EstateApp } from './pages/estate'
+
 
 
 function App() {
     return (
             <Routes>
-                <Route path="/family" element={<FamilyApp />} />
-                <Route path="/house" element={<HouseApp />}/>
-                <Route path="/" element={<NewMain />}/>
-                <Route path="/search2" element={<SearchApp />}/>
-                <Route path="/search" element={<ListArticles />}/>
-                <Route path="/family/acollection" element={<CollectionAlexanderApp />} />
-                <Route path="/house/futurehouse" element={<FutureHouseApp />} />
-                <Route path="/sgs" element={<SergeiGSApp />} />
-                <Route path="/footer" element={<Footer />} />
+                <Route path="/family" element={<FamilyApp />} /> //Род Строгановых
+                <Route path="/house" element={<HouseApp />}/> // Дом Строганова
+                <Route path="/" element={<NewMain />}/> // Главная
+                <Route path="/search2" element={<SearchApp />}/> // поиск2
+                <Route path="/search" element={<ListArticles />}/> // поиск1
+                <Route path="/family/acollection" element={<CollectionAlexanderApp />} /> // Коллекции графа А. С. Строганова
+                <Route path="/house/futurehouse" element={<FutureHouseApp />} /> // Современная жизнь дома
+                <Route path="/sgs" element={<SergeiGSApp />} /> // Сергей Григорьевич Строганов
+                <Route path="/footer" element={<Footer />} /> // Футер для всех эп
+                <Route path="/deals" element={<DealsApp />} /> // Самые яркие дела Строгановых
+                <Route path="/town" element={<TownApp />} /> // Дача Строгановых
+                <Route path="/school" element={<SchoolApp />} /> // Строгановская иконописная школа
+                <Route path="/barokko" element={<BarokkoApp />} /> // Строгановское барокко
+                <Route path="/sewing" element={<SewingApp />} /> // Строгановское шитье
+                <Route path="/estate" element={<EstateApp />} /> // Тамбовское имение
             </Routes>
     );
 }
