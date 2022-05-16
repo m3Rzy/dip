@@ -199,7 +199,7 @@ function NewMain() {
 			<article className="post">
 				<header>
 					<div className="title">
-						<h4><a href="/house">Сергей Григорьевич Строганов – один из ярчайших российских вельмож</a></h4>
+						<h4><a href="/sgs">Сергей Григорьевич Строганов – один из ярчайших российских вельмож</a></h4>
 						<p>Подробная биография</p>
 					</div>
 					<div className="meta">
@@ -208,15 +208,15 @@ function NewMain() {
 								src={avatar} alt="" /></a>
 					</div>
 				</header>
-				<a href="/house" className="image featured"><img src={sgs_post} alt="" /></a>
+				<a href="/sgs" className="image featured"><img src={sgs_post} alt="" /></a>
 				<p>Либерал? Ретроград? Почвенник? Западник? Великий гуманист? Безжалостный рубака? Все эти социальные ниши вроде бы подходили ему. Но ведь так не бывает!</p>
 				<footer>
 					<ul className="actions">
-						<li><a href="/house" className="button big">Читать подробнее</a></li>
+						<li><a href="/sgs" className="button big">Читать подробнее</a></li>
 					</ul>
 				</footer>
 			</article>
-			<article className="post">
+			{/* <article className="post">
 				<header>
 					<div className="title">
 						<h4><a href="/house">Сольвычегодск. Строганов Аникей Фёдорович</a></h4>
@@ -255,7 +255,7 @@ function NewMain() {
 						<li><a href="/house" className="button big">Читать подробнее</a></li>
 					</ul>
 				</footer>
-			</article>
+			</article> */}
 
 
 			{/* <ul className="actions pagination">
