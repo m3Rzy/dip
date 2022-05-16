@@ -36,6 +36,15 @@
     background-repeat: no-repeat;
 }
 
+.container-fluid-deals {
+    margin: 0;
+    background-image: url("../assets/headers/deals.png");
+    background-size: cover;
+    width: 100%;
+    height: 962px;
+    background-repeat: no-repeat;
+}
+
 .container-fluid-sgs {
     margin: 0;
     background-image: url("../assets/headers/sgs.png");
