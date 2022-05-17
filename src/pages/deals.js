@@ -29,7 +29,7 @@ function DealsApp() {
         const scrolled = (winScroll / height * 100);
         opacity = (winScroll / 100)
         console.log(opacity)
-        if (opacity >= 6.5) {
+        if (opacity >= 6.8) {
         vizy = 100;
         }
         onOpacity(vizy, 1000)
@@ -470,9 +470,9 @@ function DealsApp() {
 
                     {/* ФУТЕР */}
                     <div className="next-article" style={{marginTop: 75}}>
-                        <p className="next-h1">Дом П. С. Строганова на Сергиевской улице</p>
-                        <p className="next-h2">Дворец Строгановых, построенный по проекту архитектора Франческо Бартоломео Растрелли в 1753—1754 годах, один из образцов уникального растреллиевского «барочно-рокайльного стиля».</p>
-                        <a href="/house"><button type="button" className="block">Читать</button></a>
+                        <p className="next-h1">Дача Строгановых</p>
+                        <p className="next-h2">Большая территория между большой Невкой и Черной речкой.</p>
+                        <a href="/town"><button type="button" className="block">Читать</button></a>
                     </div>
 
                 </div>

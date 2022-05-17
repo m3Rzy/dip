@@ -24,7 +24,7 @@ function CollectionAlexanderApp() {
         const scrolled = (winScroll / height * 100);
         opacity = (winScroll / 100)
         console.log(opacity)
-        if (opacity >= 6.5) {
+        if (opacity >= 6.8) {
         vizy = 100;
         }
         onOpacity(vizy, 1000)
