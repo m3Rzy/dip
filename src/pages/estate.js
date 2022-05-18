@@ -577,23 +577,13 @@ function EstateApp() {
                         </p>
                     </div>
                     
-                    
-                    
-                    
-
-
-
-
-
-                    
-                    
                     {/* ФУТЕР */}
                     <div className="next-article" style={{marginTop: 75}}>
                         <p className="next-h1">Род Строгановых</p>
                         <p className="next-h2">
                         Служение России. Великие предприниматели и меценаты.
                         </p>
-                        <a href="/estate"><button type="button" className="block">Читать</button></a>
+                        <a href="/family"><button type="button" className="block">Читать</button></a>
                     </div>
 
                 </div>

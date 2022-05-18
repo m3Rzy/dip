@@ -169,7 +169,7 @@ function CollectionAlexanderApp() {
                         </p>
                     </div>
                     <div style={{marginLeft: 400}}>
-                        <img src={byst} className="strog-img"></img>
+                        <img src={byst} style={{height: 400}}></img>
                         <p className='podimg'>Бюст Анния Вера, украшавший знамя римского легиона. Халцедон. Рим. II век. ГЭ</p>
                     </div>
                     <div className="textarea-normal">
