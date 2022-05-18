@@ -7,6 +7,7 @@ import '../styles/collection.css'
 import mapfuture from '../assets/img-pages/mapfuture.jpg'
 import { Anchor } from 'antd';
 import { Footer } from './components/footer'
+import { DateWidget } from './components/date';
 const { Link } = Anchor;
 
 
@@ -68,8 +69,8 @@ function SewingApp() {
                 </div>
                 
                     <section className='anchor-mine' style={{opacity: `${vizy}%`}}>
-                        <Anchor targetOffset={targetOffset} affix={true}>
-                            <Link href="#supertitle" title="Заголовок"/>
+                        <Anchor targetOffset={targetOffset} affix={true} className='try-anchor'>
+                            <Link href="#supertitle" title="Заголовок" className='try-anchor'/>
                             <Link href="#sewing-main" title="Общая информация" />
                             
                         </Anchor>
@@ -102,7 +103,8 @@ function SewingApp() {
                         </p>
                     </div>
                     
-                    
+                    {/* <div className='footer-data'>📅 07.02.2022</div> */}
+                    <DateWidget />
                     {/* ФУТЕР */}
                     <div className="next-article" style={{marginTop: 75}}>
                         <p className="next-h1">Тамбовское имение</p>

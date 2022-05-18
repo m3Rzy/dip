@@ -1,3 +1,5 @@
+@import '../custom.less';
+
 .textarea-normal {
     /* padding-right: 30px; */
     margin-top: 20px;
@@ -15,8 +17,27 @@
     font-weight: 800;
 }
 
+.footer-data {
+    
+    margin-bottom: -30px;
+    margin-top: 20px;
+    background: #202326;
+    color: #fff;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    width: 100px;
+    text-align: center;
+    box-shadow: 0 4px 14px 0 rgb(0 0 0 / 25%);
+    font-size: 14px;
+    border-radius: 12px;
+}
+
 .footer-ul {
     display: inline;
+}
+
+.try-anchor {
+    accent-color: #202326;
 }
 
 .footer-pooper {
