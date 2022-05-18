@@ -25,7 +25,7 @@ function TownApp() {
         const scrolled = (winScroll / height * 100);
         opacity = (winScroll / 100)
         console.log(opacity)
-        if (opacity >= 6.5) {
+        if (opacity >= 6.8) {
         vizy = 100;
         }
         onOpacity(vizy, 1000)
@@ -70,14 +70,14 @@ function TownApp() {
                     <section className='anchor-mine' style={{opacity: `${vizy}%`}}>
                         <Anchor targetOffset={targetOffset} affix={true}>
                             <Link href="#supertitle" title="Заголовок"/>
-                            <Link href="#futurehouse-main" title="Дача Строгановых на Черной речке" /> 
+                            <Link href="#town-main" title="Дача Строгановых на Черной речке" /> 
                         </Anchor>
                     </section>
             </div>
             <div className="container-fluid2">
                 <div className="listheader-family">
                     <div style={{marginTop: 75}}>
-                        <h className="title-veka" id="futurehouse-main">                     
+                        <h className="title-veka" id="town-main">                     
                         Дача Строгановых на Черной речке
                         </h>
                     </div>
