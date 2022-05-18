@@ -7,7 +7,10 @@ import '../styles/collection.css'
 import mapfuture from '../assets/img-pages/mapfuture.jpg'
 import { Anchor } from 'antd';
 import { Footer } from './components/footer'
+import { FooterWidget } from './components/footerwidget'
+import { SrcLine } from './components/srcline'
 const { Link } = Anchor;
+
 
 
 function BarokkoApp() {
@@ -64,6 +67,7 @@ function BarokkoApp() {
                         <h1 className="title_main">Строгановское барокко</h1>
                         <h3 className="title_help">Архитектурное направление конца 17-начала 18 вв.</h3>
                         <div className="line"></div>
+                        <FooterWidget />
                     </div>
                 </div>
                 
@@ -133,8 +137,9 @@ function BarokkoApp() {
                         </p>
                     </div>
                     
-                    
+                    {/* <FooterWidget /> */}
                     {/* ФУТЕР */}
+                    <SrcLine />
                     <div className="next-article" style={{marginTop: 75}}>
                         <p className="next-h1">Строгановское шитье</p>
                         <p className="next-h2">
@@ -143,12 +148,12 @@ function BarokkoApp() {
                         </p>
                         <a href="/sewing"><button type="button" className="block">Читать</button></a>
                     </div>
-
                 </div>
                 <div className="container-fluid3">
                     <Footer />
                 </div> 
             </div>
+            
         </div>
     )
 }

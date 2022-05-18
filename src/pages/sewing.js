@@ -7,7 +7,7 @@ import '../styles/collection.css'
 import mapfuture from '../assets/img-pages/mapfuture.jpg'
 import { Anchor } from 'antd';
 import { Footer } from './components/footer'
-import { DateWidget } from './components/date';
+import { FooterWidget } from './components/footerwidget';
 const { Link } = Anchor;
 
 
@@ -104,7 +104,7 @@ function SewingApp() {
                     </div>
                     
                     {/* <div className='footer-data'>📅 07.02.2022</div> */}
-                    <DateWidget />
+                    <FooterWidget />
                     {/* ФУТЕР */}
                     <div className="next-article" style={{marginTop: 75}}>
                         <p className="next-h1">Тамбовское имение</p>
