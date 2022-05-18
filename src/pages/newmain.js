@@ -62,7 +62,7 @@ function NewMain() {
         <>
 		<Helmet>
                 <meta charSet="utf-8" />
-                <title>Университет ИТМО — Строгановы</title>
+                <title>Университет ИТМО — Павел Сергеевич Строганов</title>
                 <link rel="canonical" href="Исторические статьи о семье Строгановы" />
             </Helmet>
         <div id="wrapper">

@@ -141,7 +141,7 @@ function BarokkoApp() {
                         
                         Вышивание было широко распространено на Руси — драгоценные ткани у нас начали производить только с XVIII века.
                         </p>
-                        <a href="/barokko"><button type="button" className="block">Читать</button></a>
+                        <a href="/sewing"><button type="button" className="block">Читать</button></a>
                     </div>
 
                 </div>
