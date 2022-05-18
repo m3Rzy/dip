@@ -69,8 +69,8 @@ function SewingApp() {
                 </div>
                 
                     <section className='anchor-mine' style={{opacity: `${vizy}%`}}>
-                        <Anchor targetOffset={targetOffset} affix={true} className='try-anchor'>
-                            <Link href="#supertitle" title="Заголовок" className='try-anchor'/>
+                        <Anchor targetOffset={targetOffset} affix={true} className='try-anchor' style={{color: 'green'}}>
+                            <Link href="#supertitle" title="Заголовок" className='try-anchor' style={{color: 'green'}}/>
                             <Link href="#sewing-main" title="Общая информация" />
                             
                         </Anchor>
