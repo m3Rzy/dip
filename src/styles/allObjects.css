@@ -328,3 +328,38 @@
 .footer-icons{
 	margin-top: 25px;
 }
+
+.feedback-block {
+    margin: 0 auto;
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    background-color:rgb(189, 189, 189);
+}
+
+.feedback-h {
+    left: 0;
+    margin-left: 20px;
+    padding-top: 15px;
+    color: black;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+.feedback-close {
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.feedback-lu {
+    display: table;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.feedback-li {
+    display: table-cell;
+    position: relative;
+}

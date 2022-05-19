@@ -9,6 +9,7 @@ import { Anchor } from 'antd';
 import { Footer } from './components/footer'
 import { FooterWidget } from './components/footerwidget'
 import { SrcLine } from './components/srcline'
+import { FeedBackWidget } from './components/feedback';
 const { Link } = Anchor;
 
 
@@ -149,6 +150,7 @@ function BarokkoApp() {
                         <a href="/sewing"><button type="button" className="block">Читать</button></a>
                     </div>
                 </div>
+                <FeedBackWidget />
                 <div className="container-fluid3">
                     <Footer />
                 </div> 
