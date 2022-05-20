@@ -10,9 +10,12 @@ import yt from '../../assets/posts/yt.png'
 import sitmo from '../../assets/logo-full.png';
 import emailjs, { send } from 'emailjs-com';
 import { useState } from 'react'
+import { FeedBackWidget } from './feedback'
 
 
 function Footer() {
+	const [buttonPopup, setButtonPopup] = useState(false);
+
     const [sender_name, set_sender_name] = useState('');
 	const [sender_email, set_sender_email] = useState('');
 	const [message, set_message] = useState('');
@@ -45,62 +48,14 @@ function Footer() {
 	}
     return (
         <div className='footer-app'>
-        <div id="openModal" className="modal">
-			<div className="modal-dialog">
-				<div className="modal-content">
-				<div className="modal-header">
-					<h3 className="modal-title">Контакты</h3>
-					<a href="#close" title="Закрыть окно" className="close">×</a>
-				</div>
-				<div className="modal-body">    
-							<ul className="icons">
-								<li><a href="https://vk.com/itmoru" className="fa-instagram"><img src={vk} width="40px"/></a></li>
-								<li></li>
-								<li></li>
-								<li><p>+7 (812) 480-04-80</p></li>
-								<li></li>
-								<li></li>
-								<li><a href="#openModal-send" className="fa-envelope"><img src={gmail} width="40px"/></a></li>
-							</ul>
-				</div>
-				</div>
-			</div>
-		</div>
-        <div id="openModal-send" className="modal"> 
-			<div className="modal-dialog">
-				<div className="modal-content">
-					<div className="modal-header">
-						<h3 className="modal-title">Обратная связь</h3>
-						<a href="#close" title="Закрыть" className="close">×</a>
-					</div>
-					<div className="modal-body">    
-					<form class="login-form" onSubmit={sendEmail}>
-					<div class="form-input-material">
-							<label>Ваше имя</label>
-							<input type="text" name="sender_name" placeholder="Имя" value={sender_name} onChange={handleName} class="form_name" required />
-						</div>
-						<div class="form-input-material" style={{marginTop: 25}}>
-							<label>Ваша почта</label>
-							<input type="text" name="sender_email" placeholder="example@gmail.com" value={sender_email} onChange={handleEmail} class="form_email" required />
-						</div>
-						<div class="form-input-material" style={{marginTop: 25}}>
-							<label>Сообщение</label>
-							<textarea name="message" style={{width: 450, height: 250, fontSize: 16, borderRadius: 8, paddingLeft: 10, paddingRight: 10}} value={message} onChange={handleMessage} required placeholder='Ваш текст...'></textarea>
-						</div>
-						<button type="submit" class="button-search-form" style={{marginTop: 30, height: 50}}>Отправить</button>
-						{/* <button href="#close" className="button-search-form" style={{width: 100, marginLeft: 100}}>Ок</button> */}
-					</form>
-					</div>
-				</div>
-			</div>
-		</div>
+        <FeedBackWidget trigger={buttonPopup} setTrigger={setButtonPopup} />
         <div className="footer-pooper">
                 <footer class="footer-distributed">
                     <div class="footer-left">
                         <img src={sitmo} width="200px" alt="" className="logo_img_footer" style={{marginTop: -70, marginLeft: 40}}/>
                         <p class="footer-links" style={{marginTop: -20}}>
                             <a href="/" class="link-1" style={{marginLeft: 20}}>Главная</a>
-                            <a href="#openModal-send" style={{marginLeft: 20}}>Обратная связь</a>
+                            <a onClick={() => setButtonPopup(true)} style={{marginLeft: 20}}>Обратная связь</a>
                             <a href="#openModal" style={{marginLeft: 20}}>Контакты</a>
                             
                         </p>
