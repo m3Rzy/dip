@@ -152,7 +152,6 @@ function BarokkoApp() {
                     </div>
                 </div>
 
-                <button onClick={() => setButtonPopup(true)}>Open</button>
                 <FeedBackWidget trigger={buttonPopup} setTrigger={setButtonPopup} />
                                     
                 <div className="container-fluid3">

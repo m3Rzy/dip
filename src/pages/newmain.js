@@ -28,39 +28,6 @@ import { FeedBackWidget } from './components/feedback'
 function NewMain() {
 	document.title = 'Павел Сергеевич Строганов — Главная';
 	const [buttonPopup, setButtonPopup] = useState(false);
-
-	// поля для обратной связи
-	const [sender_name, set_sender_name] = useState('');
-	const [sender_email, set_sender_email] = useState('');
-	const [message, set_message] = useState('');
-	const handleName = (e) => {
-		set_sender_name(e.target.value)
-	}
-	const handleEmail = (e) => {
-		set_sender_email(e.target.value)
-	}
-	const handleMessage = (e) => {
-		set_message(e.target.value)
-	}
-	const sendEmail = (e) => {
-		e.preventDefault()
-		send(
-			'service_z2k86wh',
-			'template_olsgytm',
-			{sender_name, sender_email, message},
-			'_EYcCDdury5UIBogr'
-		)
-		.then((response, {resetForm}) => {
-			console.log('Сообщение было успешно отправлено!', response.status, response.text)
-			resetForm(response = '')
-		})
-		.catch((err) => {
-			console.log('Ошибка при отправлении сообщения', err)
-		})
-		
-		
-	}
-
     return (
         <>
 			<Helmet>

@@ -16,12 +16,18 @@ import { SchoolApp } from './pages/school'
 import { BarokkoApp } from './pages/barokko'
 import { SewingApp } from './pages/sewing'
 import { EstateApp } from './pages/estate'
-
+import {Helmet} from "react-helmet";
 
 
 function App() {
     return (
-            <Routes>
+        <>
+        <Helmet>
+                <meta charSet="utf-8" />
+                <title>Университет ИТМО — Павел Сергеевич Строганов</title>
+                <link rel="canonical" href="Исторические статьи о семье Строгановы" />
+            </Helmet>
+        <Routes>
                 <Route path="/family" element={<FamilyApp />} /> //Род Строгановых
                 <Route path="/house" element={<HouseApp />}/> // Дом Строганова
                 <Route path="/" element={<NewMain />}/> // Главная
@@ -38,6 +44,8 @@ function App() {
                 <Route path="/sewing" element={<SewingApp />} /> // Строгановское шитье
                 <Route path="/estate" element={<EstateApp />} /> // Тамбовское имение
             </Routes>
+        </>
+            
     );
 }
 
