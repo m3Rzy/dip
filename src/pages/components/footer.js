@@ -84,7 +84,7 @@ function Footer() {
                         </p>
                         <div class="footer-icons">
                             <a href="https://vk.com/itmoru"><img src={vk} width="40px"/></a>
-                            <a href="#openModal-send"><img src={gmail} width="40px" style={{marginLeft: 20}}/></a>
+                            <a onClick={() => setButtonPopup(true)}><img src={gmail} width="40px" style={{marginLeft: 20}}/></a>
                             <a href="https://t.me/itmoru"><img src={tg} width="40px" style={{marginLeft: 20}}/></a>
                             <a href="https://www.youtube.com/c/IfmoRu"><img src={yt} width="40px" style={{marginLeft: 20}}/></a>
                         </div>
