@@ -1,0 +1,97 @@
+.bg-feedback {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback {
+    position: relative;
+    width: 28vw;
+    height: 78vh;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.feedback .feedback-btn {
+    position: absolute;
+    top: 4px;
+    right: 16px;
+    font-size: 30px;
+    text-transform: none;
+}
+
+.line-feedback {
+    border: #000000 solid 1px;
+    opacity: 0.1;
+    width: 100%;
+    margin-top: -20px;
+}
+
+.feedback-h {
+    padding: 16px;
+    font-size: 20px;
+    text-transform: none;
+    font-weight: 100;
+    letter-spacing: normal;
+}
+
+.x-feedback:before {
+    content: '\D7';
+}
+
+.feedback-name {
+    margin-top: 50px;
+    width: 87%;
+    position: absolute;
+}
+
+.parentfeedback {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.label-feedback {
+    padding-left: 36px;
+}
+
+input:focus {
+    border-color: #ab8c43;
+}
+
+.textarea-feedback:focus {
+    border-color: #ab8c43;
+}
+
+textarea:focus, input:focus{
+    outline: 0;
+}
+
+*:focus {
+    outline: 0;
+}
+
+.textarea-feedback {
+    width: 87%;
+    resize: none;
+    min-height: 25vh;
+}
+
+.feedback-send {
+    width: 130px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    font-size: 16px;
+    color: white;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.8);
+}

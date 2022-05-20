@@ -68,7 +68,8 @@
  }
 
 .button-search:hover {
-   color: #ab8c43;
+   color: #ab8c43; 
+   /* gold */
 }
 
  .product-item:hover .button {

@@ -17,7 +17,8 @@ const { Link } = Anchor;
 function BarokkoApp() {
     document.title = 'Строгановское барокко';
     const history = useNavigate();
-    
+    const [buttonPopup, setButtonPopup] = useState(false);
+
     const [targetOffset, setTargetOffset] = useState(undefined);
     const [scrollTop, setScrollTop] = useState(0);
     const [vizy, onOpacity] = useState(0)
@@ -150,7 +151,12 @@ function BarokkoApp() {
                         <a href="/sewing"><button type="button" className="block">Читать</button></a>
                     </div>
                 </div>
-                <FeedBackWidget />
+
+                <button onClick={() => setButtonPopup(true)}>Open</button>
+                <FeedBackWidget trigger={buttonPopup} setTrigger={setButtonPopup}>
+                    
+                </FeedBackWidget>
+                
                 <div className="container-fluid3">
                     <Footer />
                 </div> 
