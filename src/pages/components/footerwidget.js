@@ -1,5 +1,5 @@
 
-function FooterWidget() {
+function FooterWidget(date, author, type, time) {
     return ( 
         <ul className='datewidget-ul'>
             <li className='footer-data'>📅 07.02.2022</li>

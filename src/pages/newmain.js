@@ -23,6 +23,7 @@ import emailjs, { send } from 'emailjs-com';
 import { useState } from 'react'
 import { Footer } from './components/footer'
 import { FeedBackWidget } from './components/feedback' 
+import { FooterWidget } from './components/footerwidget';
 
 
 function NewMain() {
@@ -83,17 +84,21 @@ function NewMain() {
 						<h4><a href="/family">Род Строгановых</a></h4>
 						<p>Служение России. Великие предприниматели и меценаты Строгановы</p>
 					</div>
-					<div className="meta">
-						<a className="author"><span className="name">Университет ИТМО</span><img
-								src={avatar} alt="" /></a>
-					</div>
 				</header>
+				
 				<a href="/family" className="image featured"><img src={p5} alt="" /></a>
+				
 				<p>Род русских промышленников и помещиков, из которого происходили крупные землевладельцы и
 					государственные деятели XVI—XX веков.</p>
+					
 				<footer>
 					<ul className="actions">
 						<li><a href="/family" className="button big">Читать подробнее</a></li>
+						<li><div className="meta">
+						<a className="author"><span className="name">Университет ИТМО</span><img
+								src={avatar} alt="" /></a>
+					</div></li>
+					
 					</ul>
 				</footer>
 			</article>
@@ -102,19 +107,20 @@ function NewMain() {
 				<header>
 					<div className="title">
 						<h4><a href="/futurehouse">Современная жизнь дома</a></h4>
-						<p>Общая информация</p>
+						<p>Дом Строгановых в наше время</p>
 					</div>
-					<div className="meta">
-						<a className="author"><span className="name">Университет ИТМО</span><img
-								src={avatar} alt="" /></a>
-					</div>
+					
 				</header>
 				<a href="/futurehouse" className="image featured"><img src={p2} alt="" /></a>
-				<p>НВ 1952 г. образован радиотехнический техникум, в состав которого вошел Ленинградский электромеханический техникум трамвайно-троллейбусного управления. В 1957 г. он переименован в Ленинградский радиотехнический техникум № 1, в 1966 г. техникум морского приборостроения. Подведомственность: до марта 1953, 1955 - 1957 гг. Министерства судостроительной промышленности СССР, март 1953 - 1955 гг. Министерства транспортного и тяжелого машиностроения СССР, июнь 1957- декабрь 1965 гг. Управления кадров и учебных заведений Ленсовнархоза, с 28 декабря 1965 г. Министерства судостроительной промышленности СССР.
+				<p>НВ 1952 г. образован радиотехнический техникум, в состав которого вошел Ленинградский электромеханический техникум трамвайно-троллейбусного управления. 
 				</p>
 				<footer>
 					<ul className="actions">
 						<li><a href="/futurehouse" className="button big">Читать подробнее</a></li>
+						<li><div className="meta">
+						<a className="author"><span className="name">Университет ИТМО</span><img
+								src={avatar} alt="" /></a>
+					</div></li>
 					</ul>
 				</footer>
 			</article>
@@ -123,13 +129,9 @@ function NewMain() {
 				<header>
 					<div className="title">
 						<h4><a href="/house">Дом рода Строгановых</a></h4>
-						<p>*описание*</p>
+						<p>Здание на Сергиевской, 11, без сомнения выросло из впечатлений от путешествия графа Павла Сергеевича</p>
 					</div>
-					<div className="meta">
 					
-						<a className="author"><span className="name">Университет ИТМО</span><img
-								src={avatar} alt="" /></a>
-					</div>
 				</header>
 				<a href="/house" className="image featured"><img src={house_strg_post} alt="" /></a>
 				<p>Обер-шенк русского императорского двора, коллекционер, меценат; представитель славного рода
@@ -137,6 +139,10 @@ function NewMain() {
 				<footer>
 					<ul className="actions">
 						<li><a href="/house" className="button big">Читать подробнее</a></li>
+						<li><div className="meta">
+						<a className="author"><span className="name">Университет ИТМО</span><img
+								src={avatar} alt="" /></a>
+					</div></li>
 					</ul>
 				</footer>
 			</article>
@@ -146,17 +152,17 @@ function NewMain() {
 						<h4><a href="/sgs">Сергей Григорьевич Строганов – один из ярчайших российских вельмож</a></h4>
 						<p>Подробная биография</p>
 					</div>
-					<div className="meta">
 					
-						<a className="author"><span className="name">Университет ИТМО</span><img
-								src={avatar} alt="" /></a>
-					</div>
 				</header>
 				<a href="/sgs" className="image featured"><img src={sgs_post} alt="" /></a>
 				<p>Либерал? Ретроград? Почвенник? Западник? Великий гуманист? Безжалостный рубака? Все эти социальные ниши вроде бы подходили ему. Но ведь так не бывает!</p>
 				<footer>
 					<ul className="actions">
 						<li><a href="/sgs" className="button big">Читать подробнее</a></li>
+						<li><div className="meta">
+					<a className="author"><span className="name">Университет ИТМО</span><img
+							src={avatar} alt="" /></a>
+				</div></li>
 					</ul>
 				</footer>
 			</article>
@@ -224,9 +230,10 @@ function NewMain() {
 						<header>
 							<h3><a href="/collection">Коллекции графа А. С. Строганова</a></h3>
 							<time className="published" datetime="2015-10-20">Граф Александр Сергеевич Строганов — крупнейший коллекционер своего времени</time>
-							<a className="author"><img src={avatar} alt="" /></a>
 						</header>
 						<a href="/collection" className="image"><img src={collection_post} alt="" /></a>
+						{/* <a className="author"><img src={avatar} alt="" /></a> */}
+
 					</article>
 
 					<article className="mini-post">
