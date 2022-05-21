@@ -8,7 +8,9 @@ function success() {
   };
 
 function error(text) {
-    message.error(text);
+     return (
+         <div style={{marginTop: 100}}>{message.error(text)}</div>
+     );
   };
 
 function FeedBackWidget(props) {

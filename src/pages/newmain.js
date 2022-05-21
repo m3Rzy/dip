@@ -38,7 +38,7 @@ function NewMain() {
             </Helmet>
 			
         <div id="wrapper">
-			
+		<FeedBackWidget trigger={buttonPopup} setTrigger={setButtonPopup}/>
 		<header id="header">
 			<h1><a href="#"><img src={logoblack} width="250px"/></a></h1>
 			<nav className="links">
@@ -51,7 +51,7 @@ function NewMain() {
 			</nav>
 			
 		</header>
-		<FeedBackWidget trigger={buttonPopup} setTrigger={setButtonPopup}/>
+		
 		{/* Контакты */}
 		<div id="openModal" className="modal">
 			<div className="modal-dialog">

@@ -12,7 +12,7 @@
 }
 
 .feedback {
-    z-index: 11000;
+    z-index: 5;
     position: relative;
     width: 28vw;
     height: 78vh;
