@@ -1,4 +1,5 @@
 .bg-feedback {
+    /* z-index: 3000; */
     position: fixed;
     top: 0;
     left: 0;
@@ -11,6 +12,7 @@
 }
 
 .feedback {
+    z-index: 11000;
     position: relative;
     width: 28vw;
     height: 78vh;
