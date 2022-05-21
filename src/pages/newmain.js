@@ -301,7 +301,7 @@ function NewMain() {
 					<li className='icons-li'><a href="https://vk.com/itmoru" className="fa-instagram"><img src={vk} width="40px"/></a></li>
 					<li className='icons-li'></li>
 					<li className='icons-li'></li>
-					<li className='icons-li'><a href="#openModal-send" className="fa-envelope"><img src={gmail} width="40px"/></a></li>
+					<li className='icons-li'><a onClick={() => setButtonPopup(true)} className="fa-envelope"><img src={gmail} width="40px"/></a></li>
 				</ul>
 				<p className="copyright" style={{marginTop: 30}}>&copy; <a href="#">Университет ИТМО</a>.</p>
 			</section>
