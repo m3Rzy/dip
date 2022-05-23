@@ -22,6 +22,7 @@ import granovski from '../assets/img-pages/granovskii.jpg'
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom'
 import { Footer } from './components/footer'
+import { FooterWidget } from './components/footerwidget';
 
 
 const { Link } = Anchor;
@@ -82,6 +83,12 @@ function FamilyApp() {
                         <h1 className="title_main">Род Строгановых</h1>
                         <h3 className="title_help">Род русских промышленников и помещиков, из которого происходили крупные землевладельцы и государственные деятели XVI—XX веков.</h3>
                         <div className="line"></div>
+                        <FooterWidget>
+                            <li className='footer-data'>📅 04.04.2022</li>
+                            <li className='footer-write'>🖋 Университет ИТМО</li>
+                            <li className='footer-write'>📄 Статья</li>
+                            <li className='footer-write'>🕓  7 минут</li>
+                        </FooterWidget>
                     </div>
                 </div>
                 

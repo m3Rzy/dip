@@ -8,6 +8,7 @@ import byst from '../assets/img-pages/byst.png'
 import '../styles/collection.css'
 import { Footer } from './components/footer'
 import { Anchor } from 'antd';
+import { FooterWidget } from './components/footerwidget';
 const { Link } = Anchor;
 
 function CollectionAlexanderApp() {
@@ -61,6 +62,12 @@ function CollectionAlexanderApp() {
                         <h1 className="title_main">Коллекция Александра Строганова</h1>
                         <h3 className="title_help">А. С. Строганов - крупнеший коллекционер</h3>
                         <div className="line"></div>
+                        <FooterWidget>
+                            <li className='footer-data'>📅 04.02.2022</li>
+                            <li className='footer-write'>🖋 Университет ИТМО</li>
+                            <li className='footer-write'>📄 Статья</li>
+                            <li className='footer-write'>🕓  3 минуты</li>
+                        </FooterWidget>
                     </div>
                 </div>
                 <section className='anchor-mine' style={{opacity: `${vizy}%`}}>

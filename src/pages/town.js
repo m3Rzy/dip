@@ -7,6 +7,7 @@ import '../styles/collection.css'
 import mapfuture from '../assets/img-pages/mapfuture.jpg'
 import { Anchor } from 'antd';
 import { Footer } from './components/footer'
+import { FooterWidget } from './components/footerwidget';
 const { Link } = Anchor;
 
 
@@ -64,6 +65,12 @@ function TownApp() {
                         <h1 className="title_main">Дача Строгановых</h1>
                         <h3 className="title_help">Большая территория между большой Невкой и Черной речкой.</h3>
                         <div className="line"></div>
+                        <FooterWidget>
+                            <li className='footer-data'>📅 12.05.2021</li>
+                            <li className='footer-write'>🖋 Университет ИТМО</li>
+                            <li className='footer-write'>📄 Статья</li>
+                            <li className='footer-write'>🕓  {'<'} 1 минуты</li>
+                        </FooterWidget>
                     </div>
                 </div>
                 

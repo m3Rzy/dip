@@ -10,6 +10,7 @@ import plafon from '../assets/img-pages/plafon.png'
 import listsgs from '../assets/img-pages/listsgs.png'
 import { Anchor } from 'antd';
 import { Footer } from './components/footer'
+import { FooterWidget } from './components/footerwidget';
 const { Link } = Anchor;
 
 
@@ -67,6 +68,12 @@ function SergeiGSApp() {
                         <h1 className="title_main">Сергей Григорьевич Строганов: вельможа на два фронта</h1>
                         <h3 className="title_help">Либерал? Ретроград? Почвенник? Западник? Великий гуманист? Безжалостный рубака? Все эти социальные ниши вроде бы подходили ему. </h3>
                         <div className="line"></div>
+                        <FooterWidget>
+                            <li className='footer-data'>📅 12.12.2021</li>
+                            <li className='footer-write'>🖋 Университет ИТМО</li>
+                            <li className='footer-write'>📄 Статья</li>
+                            <li className='footer-write'>🕓  4 минуты</li>
+                        </FooterWidget>
                     </div>
                 </div>
                 

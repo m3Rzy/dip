@@ -69,7 +69,12 @@ function BarokkoApp() {
                         <h1 className="title_main">Строгановское барокко</h1>
                         <h3 className="title_help">Архитектурное направление конца 17-начала 18 вв.</h3>
                         <div className="line"></div>
-                        <FooterWidget></FooterWidget>
+                        <FooterWidget>
+                            <li className='footer-data'>📅 07.02.2022</li>
+                            <li className='footer-write'>🖋 Университет ИТМО</li>
+                            <li className='footer-write'>📄 Статья</li>
+                            <li className='footer-write'>🕓  1 минута</li>
+                        </FooterWidget>
                     </div>
                 </div>
                 

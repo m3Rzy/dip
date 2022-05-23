@@ -22,6 +22,7 @@ import estate12 from '../assets/img-pages/estate12.png'
 import estate13 from '../assets/img-pages/estate13.png'
 import estate14 from '../assets/img-pages/estate14.png'
 import estate15 from '../assets/img-pages/estate15.png'
+import { FooterWidget } from './components/footerwidget';
 const { Link } = Anchor;
 
 
@@ -79,6 +80,12 @@ function EstateApp() {
                         <h1 className="title_main">Тамбовское имение</h1>
                         <h3 className="title_help">Село Кариан-Знаменское расположено в 35 верстах от Тамбова, в селе Знаменское.</h3>
                         <div className="line"></div>
+                        <FooterWidget>
+                            <li className='footer-data'>📅 25.02.2022</li>
+                            <li className='footer-write'>🖋 Университет ИТМО</li>
+                            <li className='footer-write'>📄 Статья</li>
+                            <li className='footer-write'>🕓  30 минут</li>
+                        </FooterWidget>
                     </div>
                 </div>
                 

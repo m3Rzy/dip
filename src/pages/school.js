@@ -7,6 +7,7 @@ import '../styles/collection.css'
 import mapfuture from '../assets/img-pages/mapfuture.jpg'
 import { Anchor } from 'antd';
 import { Footer } from './components/footer'
+import { FooterWidget } from './components/footerwidget';
 const { Link } = Anchor;
 
 
@@ -65,6 +66,12 @@ function SchoolApp() {
                         <h1 className="title_main">Строгановская иконописная школа</h1>
                         <h3 className="title_help">Наиболее яркое явление в поздней древнерусской иконописи. Её хронолоические рамки определяются второй половиной 16 – первой половиной 17 в.</h3>
                         <div className="line"></div>
+                        <FooterWidget>
+                            <li className='footer-data'>📅 01.01.2022</li>
+                            <li className='footer-write'>🖋 Университет ИТМО</li>
+                            <li className='footer-write'>📄 Статья</li>
+                            <li className='footer-write'>🕓  5 минут</li>
+                        </FooterWidget>
                     </div>
                 </div>
                 

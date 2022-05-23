@@ -65,6 +65,12 @@ function SewingApp() {
                         <h1 className="title_main">Строгановское шитье</h1>
                         <h3 className="title_help">Вышивание было широко распространено на Руси — драгоценные ткани у нас начали производить только с XVIII века.</h3>
                         <div className="line"></div>
+                        <FooterWidget>
+                            <li className='footer-data'>📅 10.02.2022</li>
+                            <li className='footer-write'>🖋 Университет ИТМО</li>
+                            <li className='footer-write'>📄 Статья</li>
+                            <li className='footer-write'>🕓  {'<'} 1 минуты</li>
+                        </FooterWidget>
                     </div>
                 </div>
                 

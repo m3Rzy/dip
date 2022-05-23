@@ -12,6 +12,7 @@ import '../styles/collection.css'
 import mapfuture from '../assets/img-pages/mapfuture.jpg'
 import { Anchor } from 'antd';
 import { Footer } from './components/footer'
+import { FooterWidget } from './components/footerwidget';
 const { Link } = Anchor;
 
 function DealsApp() {
@@ -68,6 +69,12 @@ function DealsApp() {
                         <h1 className="title_main">Самые яркие дела Строгановых</h1>
                         <h3 className="title_help">Это произошло благодаря первопроходным и купцам из Новгорода</h3>
                         <div className="line"></div>
+                        <FooterWidget>
+                            <li className='footer-data'>📅 10.02.2022</li>
+                            <li className='footer-write'>🖋 Университет ИТМО</li>
+                            <li className='footer-write'>📄 Статья</li>
+                            <li className='footer-write'>🕓  20 минут</li>
+                        </FooterWidget>
                     </div>
                 </div>
                 
