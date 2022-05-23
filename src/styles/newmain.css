@@ -61,15 +61,17 @@ a:before {
 a:hover {
 	border-bottom-color: transparent;
 	
-	color: #ab8c43 !important;
+	/* color: #ab8c43 !important; */
+	color: #1890ff !important;
+	/* gold */
 
 
 }
 
-a:hover:before {
+/* a:hover:before {
 	
 	color: #1890ff !important;
-}
+} */
 
 /* color: #CBD0B4 !important; */
 

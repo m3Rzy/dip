@@ -31,11 +31,11 @@ function NewMain() {
 	const [buttonPopup, setButtonPopup] = useState(false);
     return (
         <>
-			<Helmet>
+			{/* <Helmet>
                 <meta charSet="utf-8" />
                 <title>Университет ИТМО — Павел Сергеевич Строганов</title>
                 <link rel="canonical" href="Исторические статьи о семье Строгановы" />
-            </Helmet>
+            </Helmet> */}
 			
         <div id="wrapper">
 		<FeedBackWidget trigger={buttonPopup} setTrigger={setButtonPopup}/>
@@ -44,16 +44,16 @@ function NewMain() {
 			<nav className="links">
 				
 				<ul>
-					<li className='icons-li'	style={{marginRight: 50}}><a href="/search">ВСЕ СТАТЬИ</a></li>
+					<li className='icons-li'	style={{marginRight: 50}}><a href="/search">СТАТЬИ</a></li>
 					<li className='icons-li'	style={{marginRight: 50}}><a onClick={() => setButtonPopup(true)}>ОБРАТНАЯ СВЯЗЬ</a></li>
-					<li className='icons-li'	style={{marginRight: 50}}><a href="#openModal">КОНТАКТЫ</a></li>
+					{/* <li className='icons-li'	style={{marginRight: 50}}><a href="#openModal">КОНТАКТЫ</a></li> */}
 				</ul>
 			</nav>
 			
 		</header>
 		
 		{/* Контакты */}
-		<div id="openModal" className="modal">
+		{/* <div id="openModal" className="modal">
 			<div className="modal-dialog">
 				<div className="modal-content">
 				<div className="modal-header">
@@ -73,7 +73,7 @@ function NewMain() {
 				</div>
 				</div>
 			</div>
-		</div>
+		</div> */}
 		{/* Обратная связь */}
 		
 		<div id="main">

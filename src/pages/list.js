@@ -41,18 +41,18 @@ function ListArticles() {
                             <ul>
                                 <li><a href="/">ГЛАВНАЯ</a></li>
                                 <li className='icons-li' style={{marginRight: 50}}><a onClick={() => setButtonPopup(true)}>ОБРАТНАЯ СВЯЗЬ</a></li>
-                                <li><a href="#openModal">КОНТАКТЫ</a></li>
+                                {/* <li><a href="#openModal">КОНТАКТЫ</a></li> */}
                             </ul>
                     </nav>
             </header>
 			<FeedBackWidget trigger={buttonPopup} setTrigger={setButtonPopup}/>
-            <div id="openModal" className="modal">
-			<div className="modal-dialog">
-				<div className="modal-content">
-				<div className="modal-header">
-					<h3 className="modal-title">Контакты</h3>
-					<a href="#close" title="Закрыть окно" className="close">×</a>
-				</div>
+            {/* <div id="openModal" className="modal">
+			    <div className="modal-dialog">
+                    <div className="modal-content">
+                        <div className="modal-header">
+					        <h3 className="modal-title">Контакты</h3>
+					        <a href="#close" title="Закрыть окно" className="close">×</a>
+				        </div>
 				<div className="modal-body">    
 							<ul className="icons">
 								<li><a href="https://vk.com/itmoru" className="fa-instagram"><img src={vk} width="40px"/></a></li>
@@ -63,10 +63,10 @@ function ListArticles() {
 								<li></li>
 								<li><a href="#openModal-send" className="fa-envelope"><img src={gmail} width="40px"/></a></li>
 							</ul>
-				</div>
-				</div>
-			</div>
-		</div>
+				        </div>
+				    </div>
+			    </div>
+		</div> */}
             <div style={{marginTop: 120}}>
                 <div className="search-form" >
                         <input

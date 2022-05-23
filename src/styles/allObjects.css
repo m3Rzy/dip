@@ -10,7 +10,7 @@
 
 .hyperurl {
     font-size: 16px;
-    color: #1890ff;
+    color: #ab8c43;
     cursor: pointer;
     /* text-decoration: underline; */
     font-weight: 800;
@@ -237,9 +237,9 @@
 /* Footer links */
 
 .footer-distributed .footer-links{
-	color:  #1890ff;
+	/* color:  #1890ff; */
 	/* margin: 20px 0 12px; */
-
+    color: #ab8c43;
 	padding: 0;
 }
 
@@ -301,7 +301,8 @@
 }
 
 .footer-distributed .footer-center p a{
-	color:  #1890ff;
+    color: #ab8c43;
+	/* color:  #1890ff; */
 	text-decoration: none;;
 }
 
