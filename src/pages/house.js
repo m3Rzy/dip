@@ -18,6 +18,7 @@ import { useNavigate } from 'react-router-dom'
 import { Footer } from './components/footer'
 import '../styles/anchor.css';
 import { FooterWidget } from './components/footerwidget';
+import { SrcLine } from './components/srcline';
 const { Link } = Anchor;
 
 
@@ -232,7 +233,10 @@ function HouseApp() {
                         </p>
                     </div>
                     {/* ФУТЕР */}
-
+                    <SrcLine>
+                        <li><a href='https://www.citywalls.ru/house5894.html'>Дом Строгановых - Техникум морского приборостроения -
+                            Университет Информационных технологий, механики и оптики. Гуманитарный</a></li>
+                    </SrcLine>
                     <div className="next-article" style={{marginTop: 75}}>
                         <p className="next-h1">Сергей Григорьевич Строганов — один из ярчайших российских вельмож</p>
                         <p className="next-h2">Либерал? Ретроград? Почвенник? Западник? Великий гуманист? Безжалостный рубака? Все эти социальные ниши вроде бы подходили ему. Но ведь так не бывает!</p>

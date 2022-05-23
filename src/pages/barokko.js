@@ -146,7 +146,10 @@ function BarokkoApp() {
                     
                     {/* <FooterWidget /> */}
                     {/* ФУТЕР */}
-                    <SrcLine />
+                    <SrcLine>
+                        <li><a>Раппопорт П.А. Древнерусская архитектура. – СПб.: Строй-издат. С.-Петербургское отд-ние, 1993. – 289 с.</a></li>
+                        <li><a>Брайцева О.Б. Строгановские постройки рубежа XVII - XVIII веков. Москва, 1977.</a></li>
+                    </SrcLine>
                     <div className="next-article" style={{marginTop: 75}}>
                         <p className="next-h1">Строгановское шитье</p>
                         <p className="next-h2">

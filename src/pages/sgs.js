@@ -11,6 +11,7 @@ import listsgs from '../assets/img-pages/listsgs.png'
 import { Anchor } from 'antd';
 import { Footer } from './components/footer'
 import { FooterWidget } from './components/footerwidget';
+import { SrcLine } from './components/srcline';
 const { Link } = Anchor;
 
 
@@ -70,7 +71,7 @@ function SergeiGSApp() {
                         <div className="line"></div>
                         <FooterWidget>
                             <li className='footer-data'>📅 12.12.2021</li>
-                            <li className='footer-write'>🖋 Университет ИТМО</li>
+                            <li className='footer-write'>🖋 Алексей Митрофанов, автор</li>
                             <li className='footer-write'>📄 Статья</li>
                             <li className='footer-write'>🕓  4 минуты</li>
                         </FooterWidget>
@@ -229,6 +230,9 @@ function SergeiGSApp() {
                     
 
                     {/* ФУТЕР */}
+                    <SrcLine>
+                        <li><a href='https://www.miloserdie.ru/article/graf-sergej-stroganov-velmozha-na-dva-fronta/'>Милосердие.ru, "Православный портал о благотворительности"</a></li>
+                    </SrcLine>
                     <div className="next-article" style={{marginTop: 75}}>
                         <p className="next-h1">Коллекции графа А. С. Строганова</p>
                         <p className="next-h2">Граф Александр Сергеевич Строганов — крупнейший коллекционер своего времени</p>

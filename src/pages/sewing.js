@@ -8,6 +8,7 @@ import mapfuture from '../assets/img-pages/mapfuture.jpg'
 import { Anchor } from 'antd';
 import { Footer } from './components/footer'
 import { FooterWidget } from './components/footerwidget';
+import { SrcLine } from './components/srcline';
 const { Link } = Anchor;
 
 
@@ -112,6 +113,11 @@ function SewingApp() {
                     {/* <div className='footer-data'>📅 07.02.2022</div> */}
                     <FooterWidget />
                     {/* ФУТЕР */}
+                    <SrcLine>
+                        <li><a href='https://icons.pstgu.ru/bibliography/171'>Силкин А.В. Строгановское лицевое шитье. 2002</a></li>
+                        <li><a href='https://permartmuseum.ru/article/43'>Собрание Пермской художественной галереи</a></li>
+                        <li><a href='https://rusmuseumvrm.ru/data/collections/ikonopis/drt-275/index.php'>Виртуальный Русский музей. Пелена. Рождество Богоматери</a></li>
+                    </SrcLine>
                     <div className="next-article" style={{marginTop: 75}}>
                         <p className="next-h1">Тамбовское имение</p>
                         <p className="next-h2">

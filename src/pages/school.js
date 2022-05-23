@@ -8,6 +8,7 @@ import mapfuture from '../assets/img-pages/mapfuture.jpg'
 import { Anchor } from 'antd';
 import { Footer } from './components/footer'
 import { FooterWidget } from './components/footerwidget';
+import { SrcLine } from './components/srcline';
 const { Link } = Anchor;
 
 
@@ -246,6 +247,10 @@ function SchoolApp() {
                     </div>
                     
                     {/* ФУТЕР */}
+                    <SrcLine>
+                        <li><a href='https://www.youtube.com/watch?v=WwgvLp19voo'>Лекция от Третьяковской галереи №1</a></li>
+                        <li><a href='https://www.youtube.com/watch?v=XfsdB5xxEKQ'>Лекция от Третьяковской галереи №2</a></li>
+                    </SrcLine>
                     <div className="next-article" style={{marginTop: 75}}>
                         <p className="next-h1">Строгановское барокко</p>
                         <p className="next-h2">

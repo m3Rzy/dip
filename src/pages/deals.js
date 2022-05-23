@@ -13,6 +13,7 @@ import mapfuture from '../assets/img-pages/mapfuture.jpg'
 import { Anchor } from 'antd';
 import { Footer } from './components/footer'
 import { FooterWidget } from './components/footerwidget';
+import { SrcLine } from './components/srcline';
 const { Link } = Anchor;
 
 function DealsApp() {
@@ -476,6 +477,10 @@ function DealsApp() {
                     
 
                     {/* ФУТЕР */}
+                    <SrcLine>
+                        <li><a href='https://ru.wikipedia.org/wiki/Строгановы'>Строгановы, Материал из Википедии — свободной энциклопедии</a></li>
+                        <li><a href='https://www.liveinternet.ru/users/3251944/post293421402/'>СТРОГАНОВЫ. ГРАФ ПАВЕЛ СЕРГЕЕВИЧ.</a></li>
+                    </SrcLine>
                     <div className="next-article" style={{marginTop: 75}}>
                         <p className="next-h1">Дача Строгановых</p>
                         <p className="next-h2">Большая территория между большой Невкой и Черной речкой.</p>
