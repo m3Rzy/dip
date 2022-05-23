@@ -26,7 +26,7 @@ function Footer() {
                         <p class="footer-links" style={{marginTop: -20}}>
                             <a href="/" class="link-1" style={{marginLeft: 20}}>Главная</a>
                             <a onClick={() => setButtonPopup(true)} style={{marginLeft: 20}}>Обратная связь</a>
-                            <a href="#openModal" style={{marginLeft: 20}}>Контакты</a>
+                            {/* <a href="#openModal" style={{marginLeft: 20}}>Контакты</a> */}
                         </p>
                     </div>
                     
