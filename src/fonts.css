@@ -17,3 +17,8 @@
     font-family: "RubikRegular";
     src: url("fonts/Rubik/Rubik-Regular.ttf") format("truetype");
 }
+
+@font-face {
+    font-family: "Spectral";
+    src: url("fonts/Spectral/Spectral-Regular.ttf") format("truetype");
+}

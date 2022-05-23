@@ -12,6 +12,10 @@
     text-align: center;
 }
 
+.product-item span {
+   font-family: "Source Sans Pro";
+}
+
 /* Список карточек */
 
 .product-item {

@@ -6,9 +6,11 @@
     text-align: justify;
     font-size: 16px;
     margin-bottom: -20px;
+    font-family: 'Spectral';
 }
 
 .hyperurl {
+    font-family: 'Spectral';
     font-size: 16px;
     color: #ab8c43;
     cursor: pointer;
@@ -73,6 +75,10 @@
     box-shadow: 0 4px 14px 0 rgb(0 0 0 / 25%);
     font-size: 14px;
     border-radius: 12px;
+}
+
+.footer-center span, p, i {
+    font-family: "Source Sans Pro";
 }
 
 .footer-ul {

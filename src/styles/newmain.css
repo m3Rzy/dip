@@ -301,6 +301,25 @@ label {
 	/* width: 100%; */
 }
 
+@media (max-width:768px) {
+	article.post {
+		width: calc(300px + (500 - 225) * ((100vw - 100px) / (768 - 100)));
+	}
+	.author img{
+		width: calc(12px + (42 - 12) * ((100vw - 320px) / (768 - 320)));
+	}
+	.meta {
+		margin: 0 auto;
+	}
+	section {
+		opacity: 0;
+	}
+	#header h1 img {
+		width: calc(44px + (250 - 44) * ((100vw - 100px) / (768 - 120)));
+	}
+}
+
+
 
 @media (max-width: 1625px) {
 	.post img{
@@ -332,15 +351,16 @@ label {
 		font-size: calc(2px + (6 - 2) * ((100vw - 320px) / (1625 - 320)));
 		width: 320px;
 	}
+	
 
 }
-/* делаю  */
+/* делаю  */ 
 
-@media (max-width: 1319px) {
+/* @media (max-width: 1319px) {
 	section {
 		opacity: 0;
 	}
-}
+} */
 
 .image.main img {
 	/* width: 100%; */
@@ -520,15 +540,14 @@ ul.posts li {
 	margin-bottom: 0;
 }
 
-.post>header .meta {
-	/* padding: 3.75em 3em 1.75em 3em; */
+/* .post>header .meta {
 	min-width: 17em;
 	text-align: right;
 	width: 17em;
-}
+} */
 
 .meta {
-	padding-left: 400px;
+	/* padding-left: 400px; */
 
 }
 

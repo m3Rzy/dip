@@ -40,6 +40,10 @@
     
 }
 
+a {
+    font-family: 'Spectral';
+}
+
 /* a {
     font-family: "ManropeRegular";
     outline: none;
@@ -47,9 +51,9 @@
     color: #444444;
 } */
 
-p {
+/* p {
     font-family: "Source Sans Pro";
-}
+} */
 
 .listheader-house {
     /* margin-left: 125px;
