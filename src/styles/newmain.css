@@ -298,11 +298,53 @@ label {
 .image.main {
 	display: block;
 	margin: 0 0 3em 0;
-	width: 100%;
+	/* width: 100%; */
+}
+
+
+@media (max-width: 1625px) {
+	.post img{
+		width: calc(300px + (500 - 300) * ((100vw - 320px) / (1625 - 320)));
+	}
+	.article.post {
+		width: calc(100px + (774 - 100) * ((100vw - 320px) / (1625 - 320)));
+	}
+	.author img{
+		width: calc(12px + (42 - 12) * ((100vw - 320px) / (1625 - 320)));
+	}
+	header {
+		width: calc(320px + (1625 - 320) * ((100vw - 320px) / (1625 - 320)));
+	}
+	#intro header h2 {
+		font-size: calc(10px + (28 - 15) * ((100vw - 320px) / (1625 - 320)));
+	}
+	#intro header p {
+		font-size: calc(8px + (16 - 8) * ((100vw - 320px) / (1625 - 320)));
+	}
+	.mini-posts {
+		width: calc(100px + (384 - 100) * ((100vw - 320px) / (1625 - 320)));
+	}
+	.mini-post {
+		font-size: calc(8px + (16 - 8) * ((100vw - 320px) / (1625 - 320)));
+		width: calc(100px + (384 - 100) * ((100vw - 320px) / (1625 - 320)));
+	}
+	.mini-post header {
+		font-size: calc(2px + (6 - 2) * ((100vw - 320px) / (1625 - 320)));
+		width: 320px;
+	}
+
+}
+/* делаю  */
+
+@media (max-width: 1319px) {
+	section {
+		opacity: 0;
+	}
 }
 
 .image.main img {
-	width: 100%;
+	/* width: 100%; */
+
 }
 
 /* ul {
@@ -415,13 +457,14 @@ ul.posts li {
 }
 
 .mini-post header h3 {
-	font-size: 0.7em;
+	/* font-size: 16px; */
 }
 
 .mini-post header .published {
 	display: block;
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
-	font-size: 0.6em;
+	font-size: 12px;
+	/* font-size: 0.6em; */
 	font-weight: 400;
 	letter-spacing: 0.25em;
 	margin: -0.625em 0 1.7em 0;
@@ -447,6 +490,8 @@ ul.posts li {
 	/* position: relative; */
 	border-radius: 50px;
 }
+
+
 
 .post>header {
 	display: -moz-flex;
@@ -597,13 +642,16 @@ header p {
 	width: 90em;
 }
 
-#main {
+.main {
+	min-width: 1625px;
 	-moz-flex-grow: 1;
 	-webkit-flex-grow: 1;
 	-ms-flex-grow: 1;
 	flex-grow: 1;
 	width: 100%;
 }
+
+
 
 
 #sidebar {
@@ -645,12 +693,12 @@ header p {
 }
 
 #intro header h2 {
-	font-size: 1.5em;
+	/* font-size: 28px; */
 	font-weight: 900;
 }
 
 #intro header p {
-	font-size: 0.8em;
+	/* font-size: 16px; */
 }
 
 #footer .icons {
