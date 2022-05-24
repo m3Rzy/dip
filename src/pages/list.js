@@ -89,8 +89,8 @@ function ListArticles() {
                         } else {
                         return (
                         <li key={index} className="search-li">
-                            <div className="product-item"> <a href="#"></a>
-                                <img src={process.env.PUBLIC_URL + article.img} />
+                            <div className="product-item"><a href={article.url}>
+                                <img src={process.env.PUBLIC_URL + article.img}/></a>
                                 <div className="product-list">
                                     <h3>{article.name}</h3>
                                     <span className="price">{article.about}</span>

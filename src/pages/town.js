@@ -58,7 +58,7 @@ function TownApp() {
                     </a>
                     <div className="nextbtn">
                         <img src={picture2} alt="#" className="nextsvg" onClick={() => history(-1)}/>
-                        <a className='backButton-my' onClick={() => history(-1)}>Назад</a>
+                        <a className='backButton-my' onClick={() => history(-1)}></a>
                     </div>
                     {/* <button onClick={() => history(-1)}></button>  */}
                     <div className="titles">
