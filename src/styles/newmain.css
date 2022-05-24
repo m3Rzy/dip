@@ -30,7 +30,7 @@ body {
 body,
 input,
 select {
-	color: #646464;
+	/* color: #646464; */
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	font-size: 14pt;
 	font-weight: 400;
@@ -301,6 +301,13 @@ label {
 	/* width: 100%; */
 }
 
+@media (max-width: 399) and (min-width: 100) {
+	article.post {
+		width: 20px;
+	}
+}
+
+
 @media (max-width:768px) {
 	article.post {
 		width: calc(300px + (500 - 225) * ((100vw - 100px) / (768 - 100)));
@@ -321,7 +328,7 @@ label {
 
 
 
-@media (max-width: 1625px) {
+@media (max-width: 1625px){
 	.post img{
 		width: calc(300px + (500 - 300) * ((100vw - 320px) / (1625 - 320)));
 	}

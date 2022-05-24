@@ -21,7 +21,7 @@ import {Helmet} from "react-helmet";
 function App() {
     return (
         <>
-        <Helmet>
+            <Helmet>
                 <meta charSet="utf-8" />
                 <title>Университет ИТМО — Павел Сергеевич Строганов</title>
                 <link rel="canonical" href="Исторические статьи о семье Строгановы" />

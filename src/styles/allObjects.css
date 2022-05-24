@@ -3,19 +3,19 @@
     /* padding-right: 30px; */
     margin-top: 20px;
     display: flex;
-    text-align: justify;
-    font-size: 16px;
+    /* text-align: justify; */
+    font-size: 1em;
     margin-bottom: -20px;
     font-family: 'Spectral';
 }
 
 .hyperurl {
     font-family: 'Spectral';
-    font-size: 16px;
+    font-size: 1em;
     color: #ab8c43;
     cursor: pointer;
-    /* text-decoration: underline; */
-    font-weight: 800;
+    text-decoration: underline;
+    /* font-weight: 800; */
 }
 
 .datewidget-ul {
@@ -77,9 +77,6 @@
     border-radius: 12px;
 }
 
-.footer-center span, p, i {
-    font-family: "Source Sans Pro";
-}
 
 .footer-ul {
     display: inline;
@@ -220,6 +217,7 @@
 .footer-distributed .footer-right{
 	display: inline-block;
 	vertical-align: top;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
 }
 
 /* Footer left */
@@ -317,6 +315,7 @@
 }
 
 .footer-distributed .footer-company-about{
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
 	line-height: 20px;
 	color:  #92999f;
 	font-size: 13px;
@@ -325,6 +324,7 @@
 }
 
 .footer-distributed .footer-company-about span{
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
 	display: block;
 	color:  #ffffff;
 	font-size: 14px;
