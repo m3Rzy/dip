@@ -128,7 +128,7 @@ function NewMain() {
 			<article className="post">
 				<header>
 					<div className="title">
-						<h4><a href="/house">Дом рода Строгановых</a></h4>
+						<h4><a href="/house">Дом П. С. Строганова</a></h4>
 						<p>Здание на Сергиевской, 11, без сомнения выросло из впечатлений от путешествия графа Павла Сергеевича</p>
 					</div>
 					
