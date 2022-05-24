@@ -11,6 +11,7 @@
 
 .progressMainStyle {
     height: 7px;
-    background: #1890ff;
+    /* background: #1890ff; */
+    background: #ab8c43;
     border-radius: 7px;
 }

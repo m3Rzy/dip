@@ -1,6 +1,5 @@
 
 .textarea-normal {
-    /* padding-right: 30px; */
     margin-top: 20px;
     display: flex;
     /* text-align: justify; */
@@ -15,7 +14,6 @@
     color: #ab8c43;
     cursor: pointer;
     text-decoration: underline;
-    /* font-weight: 800; */
 }
 
 .datewidget-ul {
@@ -77,13 +75,8 @@
     border-radius: 12px;
 }
 
-
 .footer-ul {
     display: inline;
-}
-
-.try-anchor {
-    accent-color: #202326;
 }
 
 .footer-pooper {
